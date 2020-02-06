@@ -15,7 +15,8 @@ body{
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     color: 	#303030;
-    margin: 8px;
+    margin: 30px;
+    
 }
 
 /*-------------------------------------------------------------------Header*/
@@ -72,6 +73,15 @@ h1{
     border-bottom: 1px solid #303030;
 }
 
+/*-------------------------------------------------------------------Background-Image*/
+
+#background-image{
+    height: 150px;
+    width: 100%;
+    position: center;
+    background: url("../images/background-image.png") no-repeat center center;
+}
+
 /*-------------------------------------------------------------------Footer*/
 
 .social-networks{
@@ -88,3 +98,6 @@ h1{
     padding: 5%;
     color: #303030;
 }
+
+/*-------------------------------------------------------------------Container*/
+
