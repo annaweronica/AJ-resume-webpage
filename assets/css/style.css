@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Zeyada&display=swap:100,200,300,400,500,600,700');
 
+
+
 /**{
     margin:0;
     padding: 0;
@@ -70,3 +72,19 @@ h1{
     border-bottom: 1px solid #303030;
 }
 
+/*-------------------------------------------------------------------Footer*/
+
+.social-networks{
+    text-align: center;
+}
+
+.social-networks li{
+    display: inline;
+}
+
+.social-networks i{
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #303030;
+}
