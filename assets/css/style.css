@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Zeyada&display=swap:100,200,300,400,500,600,700');
+
+/**{
+    margin:0;
+    padding: 0;
+    border: 0;
+}*/
+
+body{
+    display: block;
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+    color: 	#303030;
+    margin: 8px;
+}
+
+/*-------------------------------------------------------------------Header*/
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+h1{
+    font-family: "Zeyada";
+    text-transform: uppercase;
+    
+    letter-spacing: 2px;
+    color: #303030;
+}
+
+#logo{
+    float: left;
+    font-size: 350%;
+    
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+#header-menu{
+    font-size: 110%;
+    list-style-type: none;
+    letter-spacing: 4px;
+    margin: 0;
+    padding: 100;
+    text-align: center;
+    position: relative;
+    
+}
+
+#logo, #header-menu{
+    line-height: 100px;
+}
+
+#header-menu li{
+    display: inline;
+    margin-right: 30px;
+}
+
+#header-menu a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: inherit;
+}
+
+#header-menu a:hover{
+    border-bottom: 1px solid #303030;
+}
+
