@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Zeyada&display=swap:100,200,300,400,500,600,700');
 
+/* div{
+    border: solid 1px black;
+} */
+
 body{
     display: block;
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     color: 	#303030;
-    background: url("../images/background-image.png");
-    background-color: #8d8787;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 100vh;
     height: 100vh;
     overflow: hidden;
 }
@@ -19,10 +18,24 @@ body{
 
 .navbar-brand{
     font-family: "Zeyada", sans-serif;
-    font-size: 45px;
+    font-size: 60px;
     color: #303030;
-    padding-top: 50px;
-    padding-left: 50px;
+}
+
+.nav-link{
+    font-family: "Montserrat", sans-serif;
+     color: #303030;
+     font-size: 30px;
+}
+
+/*-------------------------------------------------------------------Footer*/
+
+.landing-image{
+    background: url("../images/landing-image.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50vh;
 }
 
 /*-------------------------------------------------------------------Footer*/
@@ -32,7 +45,6 @@ body{
     left: 0;
     bottom: 0;
     width: 100%;
-    height: 200px;
     text-align: center;
 }
 
@@ -51,8 +63,9 @@ body{
     margin: 0 10px 0 0;
 }
 
-/*-------------------------------------------------------------------container*/
+/*-------------------------------------------------------------------Job Title*/
 
-h1{
+.jobtitle{
     text-align: center;
+    margin-top: 10rem;
 }
