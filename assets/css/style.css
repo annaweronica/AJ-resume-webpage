@@ -6,7 +6,8 @@ body{
     font-family: "Montserrat", sans-serif;
     font-size: 20px;
     color: 	#303030;
-    background: url("../images/background-image.png") ;
+    background: url("../images/background-image.png");
+    background-color: #8d8787;
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100vh;
@@ -16,61 +17,13 @@ body{
 
 /*------------------------------------------------------------------Header*/
 
-header {
-    width: 100%;
-    text-align: center;
-}
-
-#logo{
-    font-family: "Zeyada";
-    text-transform: uppercase;
-    letter-spacing: 2px;
+.navbar-brand{
+    font-family: "Zeyada", sans-serif;
+    font-size: 45px;
     color: #303030;
-    float: left;
-    font-size: 350%;
     padding-top: 50px;
     padding-left: 50px;
 }
-
-#header-menu{
-    font-size: 110%;
-    list-style-type: none;
-    letter-spacing: 4px;
-    margin: 0;
-    padding: 100;
-    text-align: center;
-    position: relative;
-}
-
-#logo, #header-menu{
-    line-height: 100px;
-}
-
-#header-menu li{
-    display: inline;
-    margin-right: 30px;
-}
-
-#header-menu a{
-    text-decoration: none;
-    display: inline-block;
-    padding: 10px;
-    color: inherit;
-}
-
-#header-menu a:hover{
-    border-bottom: 1px solid #303030;
-}
-
-/*-------------------------------------------------------------------Background-Image*/
-
-/*#background-image{
-    height: 100%;
-    position: center;
-    background: url("../images/background-image.png") no-repeat center center;
-    background-size: cover;
-    padding: 15% 50%;
-}*/
 
 /*-------------------------------------------------------------------Footer*/
 
