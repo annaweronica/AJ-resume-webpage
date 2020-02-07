@@ -10,26 +10,166 @@
 		integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap:100,200,300,400,500,600,700"
 		rel="stylesheet">
+	<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
 	<title>Contact</title>
 
 </head>
 
 <body>
+	<!-- NAVIGATION -->
 	<header>
-   
+		<nav class="navbar navbar-expand-lg static-top">
+			<div class="container">
+				<a class="navbar-brand" href="index.html">Anna Janiak</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+				<div class="collapse navbar-collapse" id="navbarResponsive">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active px-3">
+							<a class="nav-link" href="it.html">IT
+								<span class="sr-only">(current)</span>
+							</a>
+						</li>
+						<li class="nav-item px-3">
+							<a class="nav-link" href="agile.html">Agile</a>
+						</li>
+						<li class="nav-item px-3">
+							<a class="nav-link" href="alltherest.html">All the rest</a>
+						</li>
+						<li class="nav-item px-3">
+							<a class="nav-link" href="contact.html">Contact</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
 	</header>
-	
+	<!--CONTACT FORM-->
+	<div class="container contact-form">
+		<form method="post">
+			<h3>Drop Me a Message</h3>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="form-group">
+						<input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+                        </div>
+						<div class="form-group">
+							<input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+                        </div>
+							<div class="form-group">
+								<input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+                        </div>
+								<div class="form-group">
+									<input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+                        </div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+									</div>
+								</div>
+							</div>
+		</form>
+	</div>
 
-	<footer class="footer">
-		<ul class="social-networks">
-			<li><a href="https://www.linkedin.com/in/anna-j-605a40177/"
-					target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
-			<li><a href="https://github.com/annaweronica?tab=repositories"
-					target="_blank"><i class="fab fa-github"></i></a></li>
-			<li><a href="https://www.meetup.com/members/276920213/" target="_blank"><i class="fab fa-meetup"></i></a>
-			</li>
-		</ul>
+	<!--<div class="jumbotron jumbotron-sm">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-12 col-lg-12">
+					<h1 class="h1">
+						 Let's talk <small>Let's talk</small></h1> 
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-8">
+				<div class="well well-sm">
+					<form>
+						<div class="row">
+							<div class="col-md-6">
+								<div class="form-group">
+									<label for="name">
+                                Name</label>
+									<input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        </div>
+									<div class="form-group">
+										<label for="email">
+                                Email Address</label>
+										<div class="input-group">
+											<span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+											</span>
+											<input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+										</div>
+										<div class="form-group">
+											<label for="subject">
+                                Subject</label>
+											<select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="service">General Customer Service</option>
+                                <option value="suggestions">Suggestions</option>
+                                <option value="product">Product Support</option>
+                            </select>
+										</div>
+									</div>
+									<div class="col-md-6">
+										<div class="form-group">
+											<label for="name">
+                                Message</label>
+											<textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+										</div>
+									</div>
+									<div class="col-md-12">
+										<button type="submit" class="btn btn-primary pull-right" id="btnContactUs">
+                            Send Me Message</button>
+									</div>
+								</div>
+					</form>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<form>
+					<legend><span class="glyphicon glyphicon-globe"></span> Our office</legend>
+					<address>
+						<strong>Anna Janiak</strong><br>
+                Pargasgatan 34 Lgh 1201<br>
+                16471 Kista, Stockholm<br>
+						<abbr title="Phone">
+                    P:</abbr>
+						0793360854
+					</address>
+					<address>
+						<strong>Full Name</strong><br>
+						<a href="mailto:#">first.last@example.com</a>
+					</address>
+				</form>
+			</div>
+		</div>
+	</div>-->
+
+
+	<!--FOOTER-->
+	<footer class="footer fixed-bottom">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-12">
+					<ul class="social-networks">
+						<li><a href="https://www.linkedin.com/in/anna-j-605a40177/"
+								target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+						<li><a href="https://github.com/annaweronica?tab=repositories"
+								target="_blank"><i class="fab fa-github"></i></a></li>
+						<li><a href="https://www.meetup.com/members/276920213/"
+								target="_blank"><i class="fab fa-meetup"></i></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
 	</footer>
 </body>
 
