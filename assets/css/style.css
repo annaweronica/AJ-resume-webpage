@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Zeyada&display=swap:100,200,300,400,500,600,700');
 
-/* div{
+div{
     border: solid 1px black;
-}     */
+}     
 
 body{
     display: block;
@@ -25,9 +25,9 @@ body{
 
 .nav-link{
     font-family: "Montserrat", sans-serif;
-     font-size: 30px;
-     text-decoration: none;
-     color: inherit;
+    font-size: 30px;
+    text-decoration: none;
+    color: inherit;
 }
 
 .navbar-nav a:hover{
@@ -149,7 +149,12 @@ body{
     text-align: center;
 }
 
-.social-networks{
+.download p, a{
+    display: inline;
+    color: #303030;
+}
+
+ .social-networks{
     text-align: center;
 }
 
