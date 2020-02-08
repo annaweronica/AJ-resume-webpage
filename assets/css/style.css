@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Zeyada&display=swap:100,200,300,400,500,600,700');
 
-div{
+/* div{
     border: solid 1px black;
-}     
+}      */
 
 body{
     display: block;
@@ -42,15 +42,18 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 50vh;
+    height: 40vh;
+     max-width: 100%;
 }
 
 .tech-image{
     background: url("../images/tech-image.png");
     background-position: center;
     background-repeat: no-repeat;
-    background-size: contain;
-    height: 50vh;
+    background-size: contain; 
+    height: 30vh;
+    max-width: 100%;
+    
 }
 
 .agile-image{
@@ -58,12 +61,12 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 50vh;
+    height: 30vh;
 }
 
 .softskills-image{
     background: url("../images/softskills-image.png");
-    background-position: center;
+    background-position: center bottom;
     background-repeat: no-repeat;
     background-size: contain;
     height: 50vh;
@@ -74,14 +77,14 @@ body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 50vh;
+    height: 30vh;
 }
 
 /*-------------------------------------------------------------------Job Title*/
 
 .jobtitle{
     text-align: center;
-    margin-top: 30rem;
+    /* margin-top: 30rem; */
     font-family: "Montserrat", sans-serif ;
     color: #303030;
 }
@@ -90,8 +93,8 @@ body{
 
 .contact-form{
     background: #fff;
-    margin-top: 10%;
-    margin-bottom: 5%;
+    /* margin-top: 10%;
+    margin-bottom: 5%; */
     width: 70%;
 }
 .contact-form .form-control{
