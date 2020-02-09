@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap:100,200,300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Zeyada&display=swap:100,200,300,400,500,600,700');
 
-/* div{
+div{
     border: solid 1px black;
-}      */
+}      
 
 body{
     display: block;
@@ -28,6 +28,10 @@ body{
     font-size: 30px;
     text-decoration: none;
     color: inherit;
+}
+
+.navbar-brand a:hover{
+    color: #303030;
 }
 
 .navbar-nav a:hover{
@@ -87,6 +91,11 @@ body{
     /* margin-top: 30rem; */
     font-family: "Montserrat", sans-serif ;
     color: #303030;
+    text-decoration: none;
+}
+
+.jobtitle a:hover{
+    color: #303030;
 }
 
 /*-------------------------------------------------------------------Contact Form*/
@@ -97,31 +106,38 @@ body{
     margin-bottom: 5%; */
     width: 70%;
 }
+
 .contact-form .form-control{
     border-radius:1rem;
 }
+
 .contact-image{
     text-align: center;
 }
+
 .contact-image img{
     border-radius: 6rem;
     width: 11%;
     margin-top: -3%;
     transform: rotate(29deg);
 }
+
 .contact-form form{
     padding: 14%;
 }
+
 .contact-form form .row{
     margin-bottom: -7%;
 }
+
 .contact-form h3{
     margin-bottom: 8%;
     margin-top: -10%;
     text-align: center;
     color: #303030;
 }
-.contact-form .btnContact {
+
+.contact-form .btnContact{
     width: 50%;
     border: none;
     border-radius: 1rem;
@@ -131,8 +147,8 @@ body{
     color: #fff;
     cursor: pointer;
 }
-.btnContactSubmit
-{
+
+.btnContactSubmit{
     width: 50%;
     border-radius: 1rem;
     padding: 1.5%;
@@ -150,6 +166,7 @@ body{
     bottom: 0;
     width: 100%;
     text-align: center;
+    background-color: #C7BFBF;
 }
 
 .download p, a{
@@ -171,4 +188,3 @@ body{
     color: #303030;
     margin: 0 10px 0 0;
 }
-
