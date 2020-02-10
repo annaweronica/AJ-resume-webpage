@@ -3,13 +3,19 @@
 
 /* div{
     border: solid 1px black;
-}          */
+}   */
+
+html, body {
+  height: 100%;
+}
 
 body{
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     color: 	#303030;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
 }
 
 a{
@@ -27,13 +33,17 @@ a a:hover{
 .navbar{
     /* background-color: #909090 !important; */
     font-size: 2vw;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+
 }
 
 .navbar-brand{
     font-family: "Zeyada", sans-serif;
     font-size: 4vw;
     color: #303030;
-    margin-left: 80px;
+    margin-left: 120px;
 }
 
 .nav-link{
@@ -42,6 +52,7 @@ a a:hover{
     font-size: 2vw;
     text-decoration: none;
     color: inherit;
+    margin-right: 50px;
 }
 
 .navbar-brand a:hover{
@@ -60,8 +71,10 @@ a a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 60vh;
+    height: 50vh;
     max-width: 100%;
+    margin-top: 180px;
+    z-index:-1;
 }
 
 .tech-image{
@@ -99,6 +112,9 @@ a a:hover{
 }
 
 /*-------------------------------------------------------------------TYPEWRITER*/
+.content {
+  flex: 1 0 auto;
+}
 
 .typewriter h1 {
   overflow: hidden; /* Ensures the content is not revealed until the animation */
@@ -211,21 +227,21 @@ a a:hover{
 
 /*-------------------------------------------------------------------Footer*/
 
+
 .footer{
-    position: fixed;
+    margin-top: 30px;
     bottom: 0;
-    height: 12vh;;
     width: 100%;
     padding: 20px;
     text-align: center;
     background-color: #343a40;
+    flex-shrink: 0;
 }
 
-.footer-item a, i{
+.footer-item a i{
     font-size: 2vh;
     color: #ffffff;
     display: inline;
-
 }
 
 .download p, a{
