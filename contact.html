@@ -52,77 +52,93 @@
 		</div>
 
 		<!--CONTACT FORM-->
+		<section class="contact py-5" id="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h4>Get in touch</h4>
+						<hr>
+					</div>
+					<div class="col-md-6">
+						<div class="address">
 
-		<div class="container animated fadeIn">
+							<h5>Address:</h5>
+							<ul class="list-unstyled">
+								<li> Pargasgatan 34 Lgh 1201</li>
+								<li> 16471 Kista, Stockholm</li>
+							</ul>
+						</div>
+						<div class="email">
+							<h5>Email:</h5>
+							<ul class="list-unstyled">
+								<li> anna.jan.jansson@gmail.com</li>
+							</ul>
+						</div>
+						<div class="phone">
+							<h5>Phone:</h5>
+							<ul class="list-unstyled">
+								<li> +46 793360854</li>
+							</ul>
+						</div>
+						<hr>
+						<div class="social">
+							<ul class="list-inline list-unstyled">
+								<li class="list-inline-item">
+									<a href="https://www.linkedin.com/in/anna-j-605a40177/"
+										target="_blank"><i class="fab fa-linkedin-in"></i>
+									</a>
+								</li>
 
-			<div class="row">
-					<div class="col-sm-6">
-						<iframe width="100%" height="320px" frameborder="0"
-							src="https://maps.google.com/maps?width=100%&amp;height=320&amp;hl=en&amp;q=Pargasgatan%2034%20Lgh%202101%2C%20Kista+(Where%20I%20live)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed"
-							frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a
-								href="https://www.maps.ie/coordinates.html">find my coordinates</a></iframe></div>
-    	
-					<div class="col-sm-6">
-						<form action="form.php" class="contact-form" method="post">
 
-							<div class="form-group">
-								<input type="text" class="form-control" id="name" name="nm" placeholder="Name" required="" autofocus="">
-		        </div>
+								<li class="list-inline-item">
+									<a href="https://github.com/annaweronica?tab=repositories"
+										target="_blank"><i class="fab fa-github"></i>
+									</a>
+								</li>
+								<li class="list-inline-item">
+									<a href="https://www.meetup.com/members/276920213/"
+										target="_blank"><i class="fab fa-meetup"></i>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="card">
+							<div class="card-body">
+								<form>
+									<div class="form-row">
+										<div class="form-group col-md-6">
+											<input id="Full Name" name="Full Name" placeholder="Full Name" class="form-control" type="text">
+                            </div>
+											<div class="form-group col-md-6">
+												<input id="Mobile No." name="Mobile No." placeholder="Mobile No." class="form-control" required="required" type="text">
+  </div>
+											</div>
+											<div class="form-row">
+												<div class="form-group col-md-12">
+													<input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                            </div>
+													<div class="form-group col-md-12">
+														<textarea id="comment" name="comment" cols="40" rows="5" placeholder="Your Message"class="form-control"></textarea>
+													</div>
+												</div>
 
-
-								<div class="form-group form_left">
-									<input type="email" class="form-control" id="email" name="em" placeholder="Email" required="">
-		        </div>
-
-									<div class="form-group">
-										<input type="text" class="form-control" id="phone" onkeypress="return event.charCode >= 48 && event.charCode <= 57" maxlength="10" placeholder="Phone No." required="">
-		      </div>
-										<div class="form-group">
-											<textarea class="form-control textarea-contact" rows="5" id="comment" name="FB" placeholder="Message me" required=""></textarea>
-											<br>
-											<button class="btn btn-default btn-send"> <span class="glyphicon glyphicon-send"></span> Send </button>
-										</div>
-						</form>
-                    </div>
+												<div class="form-row">
+													<button type="button" class="btn btn-dark">Submit</button>
+												</div>
+								</form>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
+		</section>
 
 
-
-
-
-
-			<!---------------------------------------------------------------------------------------------------------------------->
-			<!-- <div class="container contact-form">
-			<form method="post">
-				<div class="row">
-					<div class="col-md-6">
-						<div class="form-group">
-							<input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
-                        </div>
-							<div class="form-group">
-								<input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
-                        </div>
-								<div class="form-group">
-									<input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
-                        </div>
-									<div class="form-group">
-										<input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
-                        </div>
-									</div>
-									<div class="col-md-6">
-										<div class="form-group">
-											<textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
-										</div>
-									</div>
-								</div>
-			</form>
-		</div>
-	</div> -->
-
-			<!--FOOTER-->
-			<footer class="footer">
-				<!-- <div class="container">
+		<!--FOOTER-->
+		<footer class="footer">
+			<!-- <div class="container">
 			<div class="row">
 				<div class="col-sm">
 					<div class="phone-number footer-item">
@@ -158,20 +174,17 @@
 				</div>
 			</div>
 		</div> -->
-			</footer>
+		</footer>
 
-			<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-				integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-				crossorigin="anonymous">
-			</script>
-			<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-				integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-				crossorigin="anonymous">
-			</script>
-			<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-				integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-				crossorigin="anonymous">
-			</script>
+		<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+		</script>
+		<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+			integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+		</script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+			integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+		</script>
 
 </body>
 
