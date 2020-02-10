@@ -32,7 +32,7 @@ a a:hover{
 
 .navbar{
     /* background-color: #909090 !important; */
-    font-size: 2vw;
+    font-size: 2rem;
     position: fixed;
     z-index: 100;
     width: 100%;
@@ -41,15 +41,15 @@ a a:hover{
 
 .navbar-brand{
     font-family: "Zeyada", sans-serif;
-    font-size: 4vw;
+    font-size: 3rem;
     color: #303030;
-    margin-left: 120px;
+    margin-left: 20px;
 }
 
 .nav-link{
     font-family: "Montserrat", sans-serif;
     text-align: right;
-    font-size: 2vw;
+    font-size: 1rem;
     text-decoration: none;
     color: inherit;
     margin-right: 50px;
@@ -228,14 +228,20 @@ a a:hover{
 /*-------------------------------------------------------------------Footer*/
 
 
-.footer{
+
+
+
+
+
+/* .footer{
     margin-top: 30px;
     bottom: 0;
     width: 100%;
-    padding: 20px;
+    padding: 5%;
     text-align: center;
     background-color: #343a40;
     flex-shrink: 0;
+   
 }
 
 .footer-item a i{
@@ -247,11 +253,12 @@ a a:hover{
 .download p, a{
     display: inline;
      color: #ffffff;
+      font-size: 1rem;
 }
 
- /* .social-networks{
+  .social-networks{
     text-align: center;
-} */
+} 
 
 .footer-item li{
     display: inline-block;
@@ -261,14 +268,14 @@ a a:hover{
     padding: 5%;
     color: #303030;
     margin: 0 10px 0 0;
-} 
+}  */
 
 /*-------------------------------------------------------------------MEDIA QUERIES*/
 
 @media screen and (max-width: 943px) {
   .typewriter{
     float: none;
-    background-color: blue;
+    /* background-color: blue; */
     margin: 0 auto;
   }
   .typewriter h1{
