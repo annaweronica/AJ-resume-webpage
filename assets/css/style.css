@@ -25,19 +25,21 @@ a a:hover{
 /*------------------------------------------------------------------HEADER*/
 
 .navbar{
-    background-color: #909090 !important;
+    /* background-color: #909090 !important; */
+    font-size: 2vw;
 }
 
 .navbar-brand{
     font-family: "Zeyada", sans-serif;
-    font-size: 5rem;
+    font-size: 4vw;
     color: #303030;
-    margin-left: 30px;
+    margin-left: 80px;
 }
 
 .nav-link{
     font-family: "Montserrat", sans-serif;
-    font-size: 30px;
+    text-align: right;
+    font-size: 2vw;
     text-decoration: none;
     color: inherit;
 }
@@ -58,7 +60,7 @@ a a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 50vh;
+    height: 60vh;
     max-width: 100%;
 }
 
@@ -210,33 +212,36 @@ a a:hover{
 /*-------------------------------------------------------------------Footer*/
 
 .footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
+    height: 12vh;;
     width: 100%;
     padding: 20px;
     text-align: center;
-    background-color: #909090;
+    background-color: #343a40;
 }
 
-.footer-item{
+.footer-item a, i{
+    font-size: 2vh;
+    color: #ffffff;
+    display: inline;
 
 }
 
 .download p, a{
     display: inline;
-    color: #303030;
+     color: #ffffff;
 }
 
- .social-networks{
+ /* .social-networks{
     text-align: center;
-}
+} */
 
-.social-networks li{
+.footer-item li{
     display: inline-block;
 }
 
-.social-networks i{
-    font-size: 160%;
+.footer-item i{
     padding: 5%;
     color: #303030;
     margin: 0 10px 0 0;
@@ -252,10 +257,5 @@ a a:hover{
   }
   .typewriter h1{
     font-size: 5vh;
-   }
-
-   .footer{
-       float: ;
-       clear: ;
    }
 }
