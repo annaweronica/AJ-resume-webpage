@@ -39,8 +39,7 @@ a a:hover{
 
 .navbar-brand{
     font-family: "Zeyada", sans-serif;
-    font-size: 3rem;
-    color: #303030;
+    font-size: 4rem;
     margin-left: 5px;
 }
 
@@ -128,7 +127,8 @@ a a:hover{
 
 .typewriter h1{
   position: relative;
-  font-family: "Press+Start+2P" !important;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 1rem;
   border-right: .15em solid black; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   /* margin: 0 auto; Gives that scrolling effect as the typing happens */
@@ -145,12 +145,12 @@ a a:hover{
 /* The typing effect */
 @keyframes typing{
   from { width: 0 }
-  to { width: 100% }
+  to { width: 50% }
 }
 
 @keyframes typing{
   from { width: 0 }
-  to { width: 75% }
+  to { width: 30% }
 }
 
 /* The typewriter cursor effect */
@@ -189,8 +189,12 @@ a a:hover{
     margin: 0 auto;
   }
   .typewriter h1{
-    font-size: 5vh;
+    font-size: 1.5vh;
    }
+@keyframes typing{
+  from { width: 0 }
+  to { width: 100% }
+}
 }
 
 /* @media screen and (min-width: 0px) and (max-width: 20px) {
