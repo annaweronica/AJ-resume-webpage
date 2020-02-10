@@ -43,7 +43,7 @@ a a:hover{
     font-family: "Zeyada", sans-serif;
     font-size: 3rem;
     color: #303030;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 .nav-link{
@@ -109,6 +109,7 @@ a a:hover{
     background-repeat: no-repeat;
     background-size: contain;
     height: 30vh;
+    margin-top: 100px;
 }
 
 /*-------------------------------------------------------------------TYPEWRITER*/
@@ -167,10 +168,89 @@ a a:hover{
 
 /*-------------------------------------------------------------------Contact Form*/
 
-.contact-form{
+.form-control
+        {
+        	border-radius:0px;
+        	border:1px solid #EDEDED;
+        }
+
+        .form-control:focus
+        {
+        	border:1px solid #00bfff;
+        }
+
+        .textarea-contact
+        {
+        	resize:none; 
+        }
+
+        .btn-send
+        {
+        	border-radius: 0px;
+        	border:1px solid #00bfff;
+        	background:#00bfff;
+        	color:#fff; 
+        }
+
+        .btn-send:hover
+        {
+        	border:1px solid #00bfff;
+        	background:#fff;
+        	color:#00bfff;
+        	transition:background 0.5s;   
+        }
+
+        /* .second-portion
+        {
+        	margin-top:50px; 
+        } */
+
+		        @import "//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css";
+		@import "http://fonts.googleapis.com/css?family=Roboto:400,500";
+
+		.box > .icon { text-align: center; position: relative; }
+		.box > .icon > .image { position: relative; z-index: 2; margin: auto; width: 88px; height: 88px; border: 8px solid white; line-height: 88px; border-radius: 50%; background: #00bfff; vertical-align: middle; }
+		.box > .icon:hover > .image { background: #333; }
+		.box > .icon > .image > i { font-size: 36px !important; color: #fff !important; }
+		.box > .icon:hover > .image > i { color: white !important; }
+		.box > .icon > .info { margin-top: -24px; background: rgba(0, 0, 0, 0.04); border: 1px solid #e0e0e0; padding: 15px 0 10px 0; min-height:163px;}
+		.box > .icon:hover > .info { background: rgba(0, 0, 0, 0.04); border-color: #e0e0e0; color: white; }
+		.box > .icon > .info > h3.title { font-family: "Robot",sans-serif !important; font-size: 16px; color: #222; font-weight: 700; }
+		.box > .icon > .info > p { font-family: "Robot",sans-serif !important; font-size: 13px; color: #666; line-height: 1.5em; margin: 20px;}
+		.box > .icon:hover > .info > h3.title, .box > .icon:hover > .info > p, .box > .icon:hover > .info > .more > a { color: #222; }
+		.box > .icon > .info > .more a { font-family: "Robot",sans-serif !important; font-size: 12px; color: #222; line-height: 12px; text-transform: uppercase; text-decoration: none; }
+		.box > .icon:hover > .info > .more > a { color: #fff; padding: 6px 8px; background-color: #63B76C; }
+		.box .space { height: 30px; }
+
+		@media only screen and (max-width: 768px)
+		{
+			.contact-form
+			{
+				margin-top:25px; 
+			}
+
+			.btn-send
+			{
+				width: 100%;
+				padding:10px; 
+			}
+
+			.second-portion
+			{
+				margin-top:25px; 
+			}
+
+            .contact-form{
+                margin-bottom: 80px;
+            }
+		}
+	/* Conatct end */
+/* ---------------------------------------------------------------------------- */
+
+/* .contact-form{
     background: #fff;
-    /* margin-top: 10%;
-    margin-bottom: 5%; */
+    margin-top: 10%;
+    margin-bottom: 5%;
     width: 70%;
 }
 
@@ -223,12 +303,12 @@ a a:hover{
     background-color: #0062cc;
     border: none;
     cursor: pointer;
-}
+} */
 
 /*-------------------------------------------------------------------Footer*/
 
 .footer{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
     height: 60px;
