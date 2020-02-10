@@ -275,3 +275,7 @@ a a:hover{
     font-size: 5vh;
    }
 }
+
+@media screen and (min-width: 0px) and (max-width: 720px) {
+  .social-networks { display: none; }
+ }
