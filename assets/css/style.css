@@ -53,7 +53,7 @@ a a:hover{
 }
 
 .navbar-brand a:hover{
-    color: #303030;
+    color:red;
 }
 
 .navbar-nav a:hover{
@@ -81,7 +81,8 @@ a a:hover{
     background-size: contain; 
     height: 30vh;
     max-width: 100%;
-    
+    margin-top: 80px;
+    z-index: -1;
 }
 
 .agile-image{
@@ -90,6 +91,8 @@ a a:hover{
     background-repeat: no-repeat;
     background-size: contain;
     height: 30vh;
+    margin-top: 130px;
+    z-index: -1;
 }
 
 .softskills-image{
@@ -97,7 +100,10 @@ a a:hover{
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 50vh;
+    height: 30vh;
+    margin-top: 110px;
+    margin-bottom: 20px;
+    z-index: -1;
 }
 
 .contact-image{
@@ -119,6 +125,11 @@ a a:hover{
     color: #fff;
     background-color: gray;
 }
+
+.cards{
+    margin-bottom: 106px;
+}
+
 
 /*-------------------------------------------------------------------TYPEWRITER*/
 .content{
