@@ -126,8 +126,8 @@ a a:hover{
     background-color: gray;
 }
 
-.btn-primary:active:focus {
-  background-color: yellow;
+.btn.btn-primary:active:focus {
+  background-color: red;
 }
 
 .cards-tech{
@@ -143,17 +143,24 @@ a a:hover{
 
 /*-------------------------------------------------------------------PROGRESS SKILLS*/
 .progress-skills{
-    margin-bottom: 20px;
+    margin-bottom: 48px;
 }
 .progress{
-    background-color: grey;
-    height: 2rem;
+    background-color: #343a40;
+    height: 1.5rem;
     margin-bottom: 10px;
 }
 
 .progress-bar{
-    background-color: darkgray;
+    background-color: #D4CECE;
+    color: black;
 }
+
+.progress-type{
+    color: #fff;
+    text-align: right;
+}
+
 /*-------------------------------------------------------------------TYPEWRITER*/
 .content{
   flex: 1 0 auto;
@@ -198,11 +205,11 @@ a a:hover{
   to { width: 30% }
 }
 
-/* The typewriter cursor effect */
+/* The typewriter cursor effect
 @keyframes blink-caret{
   from, to { border-color: transparent}
   50% { border-color: orange;}
-}
+} */
 
 @keyframes blink-caret{
     from, to { border-color: transparent}
@@ -212,7 +219,8 @@ a a:hover{
 /*-------------------------------------------------------------------CONTACT FORM*/
 
 #contact{
-    padding-top:  0;
+    padding: auto;
+    
 }
 
 /*-------------------------------------------------------------------------FOOTER*/
@@ -227,7 +235,8 @@ a a:hover{
 
 /*-------------------------------------------------------------------MEDIA QUERIES*/
 
-@media screen and (max-width: 320px) {
+
+@media screen and (max-width: 320px){
   .typewriter{
     float: none;
     /* background-color: blue; */
@@ -246,7 +255,13 @@ a a:hover{
   .social-networks { display: none; }
  } */
 
- @media screen and (min-width: 0px) and (max-width: 568px) {
+ @media screen and (min-width: 0px) and (max-width: 568px){
   .navbar-brand { display: none; }
   .copy-right{ display: none; }
+}
+
+@media screen and (min-width:0px) and (max-width: 320px){
+    .navbar-toggler-icon{
+        text-align: left;
+    }
 }
