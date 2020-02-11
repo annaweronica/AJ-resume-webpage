@@ -71,7 +71,7 @@ a a:hover{
     height: 50vh;
     max-width: 100%;
     margin-top: 180px;
-    z-index:-1;
+    /* z-index:-1; */
 }
 
 .tech-image{
