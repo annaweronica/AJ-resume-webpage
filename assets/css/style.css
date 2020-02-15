@@ -242,6 +242,10 @@ a.navbar-brand:hover{
     color: #fff;
 }
 
+.list-styled h5 i{
+    color: #6c757d;
+}
+
 /*-------------------------------------------------------------------MEDIA QUERIES*/
 
 @media screen and (max-width: 320px){
