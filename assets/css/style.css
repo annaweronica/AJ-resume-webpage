@@ -41,6 +41,7 @@ a a:hover{
     font-family: "Zeyada", sans-serif;
     font-size: 4rem;
     margin-left: 40px;
+    padding-left: 60px
 }
 
 .nav-link{
@@ -48,7 +49,7 @@ a a:hover{
     text-align: right;
     font-size: 1rem;
     text-decoration: none;
-    color: inherit;
+    color: red;
     margin-right: 50px;
 }
 
@@ -68,13 +69,12 @@ a.navbar-brand:hover{
 
 .landing-image{
     background: url("../images/landing-image.png");
-    background-position: center;
+    background-position: 75% 75%;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 50vh;
+    height: 60vh;
     max-width: 100%;
     margin-top: 180px;
-    /* z-index:-1; */
  } 
 
 .tech-image{
@@ -84,7 +84,7 @@ a.navbar-brand:hover{
     background-size: contain; 
     height: 30vh;
     max-width: 100%;
-    margin-top: 80px;
+    margin-top: 20vh;
     z-index: -1;
 }
 
@@ -122,10 +122,11 @@ a.navbar-brand:hover{
 
 .personal-info{
     font-family: 'Press Start 2P';
+    font-size: 1rem;
     height: 50vh;
     max-width: 100%;
     margin-top: auto;
-    padding-top: 100px; 
+    padding-top: 0; 
 }
 
 /*-------------------------------------------------------------------CARDS*/
@@ -180,29 +181,31 @@ a.navbar-brand:hover{
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   position: relative;
   font-family: 'Press Start 2P', cursive;
-  font-size: 1rem;
+  font-size: 1.5rem;
   border-right: .15em solid black; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+  padding-bottom: 50vh;
+  margin-bottom: 80vh;
   margin-left: auto;
   margin-right: auto;
   padding: 0 10px 0 10px;
-  letter-spacing: .20em; /* Adjust as needed */
+  letter-spacing: .10em; /* Adjust as needed */
   animation: 
-    typing 10s steps(56,end) 1s 1 normal both, 
-    blink-caret .75s steps(56,end) infinite;
+    typing 10s steps(30,end) 1s 1 normal both, 
+    blink-caret .75s steps(30,end) infinite;
   animation-iteration-count: infinite;
 }
 
 /* The typing effect */
 @keyframes typing{
   from { width: 0 }
-  to { width: 50% }
+  to { width: 41% }
 }
 
 @keyframes typing{
   from { width: 0 }
-  to { width: 30% }
+  to { width: 41% }
 }
 
 /* The typewriter cursor effect
@@ -256,9 +259,11 @@ a.navbar-brand:hover{
     /* background-color: blue; */
     margin: 0 auto;
   }
+
   .typewriter h1{
-    font-size: 1.5vh;
+    font-size: 0.8rem;
    }
+
 @keyframes typing{
   from { width: 0 }
   to { width: 100% }
