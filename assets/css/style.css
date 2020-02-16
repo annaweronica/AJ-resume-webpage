@@ -37,11 +37,15 @@ a a:hover{
 
 }
 
+.navbar-nav{
+    margin-right: 20rem;
+}
+
 .navbar-brand{
     font-family: "Zeyada", sans-serif;
     font-size: 4rem;
-    margin-left: 40px;
-    padding-left: 60px
+    margin-left: 20rem;
+    padding-left: 3rem;
 }
 
 .nav-link{
@@ -49,7 +53,7 @@ a a:hover{
     text-align: right;
     font-size: 1rem;
     text-decoration: none;
-    color: red;
+    color: #fff !important;
     margin-right: 50px;
 }
 
@@ -59,7 +63,6 @@ a.navbar-brand:hover{
 
 .navbar-nav a:hover{
     border-bottom: 1px solid #303030;
-    color: red;
 }
 .navbar-toggler-icon{
     margin-left: auto;
@@ -69,23 +72,22 @@ a.navbar-brand:hover{
 
 .landing-image{
     background: url("../images/landing-image.png");
-    background-position: 75% 75%;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
     height: 60vh;
     max-width: 100%;
-    margin-top: 180px;
+    margin-top: 10rem;
  } 
 
 .tech-image{
     background: url("../images/tech-image.png");
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: contain; 
-    height: 30vh;
+    height: 35vh;
     max-width: 100%;
     margin-top: 0vh;
-    z-index: -1;
 }
 
 .agile-image{
@@ -106,7 +108,7 @@ a.navbar-brand:hover{
     height: 30vh;
     margin-top: 110px;
     margin-bottom: 20px;
-    z-index: -1;
+    z-index: initial;
 }
 
 .contact-image{
@@ -118,19 +120,28 @@ a.navbar-brand:hover{
     margin-top: 100px;
 }
 
+.card-image{
+    margin-top: 1.5rem;
+}
+
 /*-------------------------------------------------------------------CARDS*/
 
+.card-body{
+    text-align:justify;  
+    text-justify:inter-character;
+}
 .btn-secondary:hover{
-    color: #fff;
+    color: #303030;
     background-color: gray;
 }
 
-.btn.btn-secondary:active:focus {
+/* .btn.btn-secondary:active:focus {
   background-color: red;
-} 
+}  */
 
 .cards-tech{
-    margin-bottom: 53px;
+    /* margin-bottom: 1rem; */
+     z-index: -1;
 }
 .cards-agile{
     margin-bottom: 139px;
@@ -144,6 +155,8 @@ a.navbar-brand:hover{
 
 .progress-skills{
     margin-bottom: 48px;
+    margin-top: 5rem;
+     z-index: -1;
 }
 .progress{
     background-color: #343a40;
@@ -176,7 +189,7 @@ a.navbar-brand:hover{
   white-space: nowrap; /* Keeps the content on a single line */
   /* margin: 0 auto; Gives that scrolling effect as the typing happens */
   padding-bottom: 50vh;
-  margin-bottom: 15vh;
+  margin-bottom: 20vh;
   margin-left: auto;
   margin-right: auto;
   padding: 0 10px 0 10px;
@@ -242,6 +255,11 @@ a.navbar-brand:hover{
 }
 
 /*-------------------------------------------------------------------MEDIA QUERIES*/
+
+/* @media screen and (max-width: 320px){
+.landing-image{
+    margin-top: 5rem;
+} */
 
 @media screen and (max-width: 320px){
   .typewriter{
