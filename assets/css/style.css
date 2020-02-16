@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Zeyada|Press+Start+2P&display=swap:100,200,300,400,500,600,700');
 
-/* div{
+div{
     border: solid 1px black;
-} */
+}
 
 html, body {
   height: 100%;
@@ -18,7 +18,7 @@ body{
 }
 
 a{
-    color: #303030;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -84,7 +84,7 @@ a.navbar-brand:hover{
     background-size: contain; 
     height: 30vh;
     max-width: 100%;
-    margin-top: 20vh;
+    margin-top: 0vh;
     z-index: -1;
 }
 
@@ -116,17 +116,6 @@ a.navbar-brand:hover{
     background-size: contain;
     height: 30vh;
     margin-top: 100px;
-}
-
-/*-------------------------------------------------------------------PRESONAL INFO*/
-
-.personal-info{
-    font-family: 'Press Start 2P';
-    font-size: 1rem;
-    height: 50vh;
-    max-width: 100%;
-    margin-top: auto;
-    padding-top: 0; 
 }
 
 /*-------------------------------------------------------------------CARDS*/
@@ -165,6 +154,7 @@ a.navbar-brand:hover{
 .progress-bar{
     background-color: #D4CECE;
     color: black;
+    transition: width 2s;
 }
 
 .progress-type{
@@ -186,7 +176,7 @@ a.navbar-brand:hover{
   white-space: nowrap; /* Keeps the content on a single line */
   /* margin: 0 auto; Gives that scrolling effect as the typing happens */
   padding-bottom: 50vh;
-  margin-bottom: 80vh;
+  margin-bottom: 15vh;
   margin-left: auto;
   margin-right: auto;
   padding: 0 10px 0 10px;
