@@ -44,7 +44,7 @@ a a:hover{
 .navbar-brand{
     font-family: "Zeyada", sans-serif;
     font-size: 4rem;
-    margin-left: 20rem;
+    margin-left: 12rem;
     padding-left: 3rem;
 }
 
@@ -139,6 +139,7 @@ a.navbar-brand:hover{
 .card-body{
     text-align:justify;  
     text-justify:inter-character;
+    padding: 1.5rem;
 }
 
 .card{
@@ -170,6 +171,13 @@ a.navbar-brand:hover{
 .card-content-top{
     margin-top: 8rem;
     padding-top: 8rem;
+}
+
+.landing-content h4{
+    font-family: 'Press Start 2P', cursive;
+    font-size: 1rem;
+    letter-spacing: 5px;
+    text-align: center;
 }
 
 /*-------------------------------------------------------------------PROGRESS SKILLS*/
@@ -429,9 +437,9 @@ to {
   white-space: nowrap; /* Keeps the content on a single line */
   /* margin: 0 auto; Gives that scrolling effect as the typing happens */
   padding-top: 10vh;
-  margin-top: 5vh;
+  margin-top: 6vh;
   padding-bottom: 10vh;
-  margin-bottom: 10vh;
+  margin-bottom: 12vh;
   margin-left: auto;
   margin-right: auto;
   padding: 0 10px 0 10px;
