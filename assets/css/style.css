@@ -54,7 +54,7 @@ a a:hover{
     font-size: 1rem;
     text-decoration: none;
     color: #fff !important;
-    margin-right: 50px;
+    margin-right: 1rem;
 }
 
 a.navbar-brand:hover{
@@ -82,6 +82,16 @@ a.navbar-brand:hover{
 
 .tech-image{
     background: url("../images/tech-image.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain; 
+    height: 35vh;
+    max-width: 100%;
+    margin-top: 0vh;
+}
+
+.backend-image{
+    background: url("../images/backend-image.png");
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain; 
@@ -290,4 +300,8 @@ a.navbar-brand:hover{
 
 @media screen and (min-width:0px) and (max-width: 320px){
     .navbar-toggler navbar-toggler-icon{margin-left: auto;}
+    }
+
+@media screen and (min-width:0px) and (max-width: 411px){
+    .tech-image{display: none;}
     }
