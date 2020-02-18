@@ -152,7 +152,7 @@ a.navbar-brand:hover{
 /*-------------------------------------------------------------------CARDS LANDING PAGE*/
 
 .card-content-top{
-    margin-top: 3rem;
+    margin-top: 8rem;
     padding-top: 4rem;
 }
 
@@ -160,11 +160,10 @@ a.navbar-brand:hover{
     font-family: 'Press Start 2P', cursive;
     font-size: 1rem;
     letter-spacing: 5px;
-    text-align: center;
 }
 
 .landing-content p{
-    text-indent: 50px;
+    /* text-indent: 50px; */
     text-align: justify;
     letter-spacing: 2px;
 }
@@ -290,7 +289,7 @@ a.navbar-brand:hover{
 
 /*-------------------------------------------------------------------CONTACT FORM*/
 
-.form-box h1{
+.form-box h1, .form-box p{
     position: center;
     text-align: center;
     font-family: inherit;
