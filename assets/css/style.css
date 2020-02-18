@@ -2,7 +2,7 @@
 
 /* div{
     border: solid 1px black;
-} */
+}  */
 
 html, body {
   height: 100%;
@@ -108,17 +108,6 @@ a.navbar-brand:hover{
     z-index: -1;
 }
 
-/*.softskills-image{
-    background: url("../images/softskills-image.png");
-    background-position: center bottom;
-    background-repeat: no-repeat;
-    background-size: contain;
-    height: 30vh;
-    margin-top: 110px;
-    margin-bottom: 20px;
-    z-index: initial;
-}*/
-
 .contact-image{
     background: url("../images/contact-image.png");
     background-position: center;
@@ -148,10 +137,6 @@ a.navbar-brand:hover{
     background-color: gray;
 }
 
-/* .btn.btn-secondary:active:focus {
-  background-color: red;
-}  */
-
 .cards-tech{
     /* margin-bottom: 1rem; */
      z-index: -1;
@@ -179,8 +164,47 @@ a.navbar-brand:hover{
 }
 
 /*-------------------------------------------------------------------PROGRESS SKILLS*/
+.skillbar{
+    /* position: relative; */
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    }
 
+.skillbar-bar:before {
+    background: #eee;
+    content: "";
+    height: 3px;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+}
 
+.skillbar-bar {
+    height: 3px;
+    width: 0px;
+    background: #323232;
+    transition-property: width, background-color;
+}
+
+.skillbar-title {
+  color: #323232;
+  font-size: 11px;
+  font-weight: 600;
+  /* text-transform: uppercase; */
+  display: inline-block;
+}
+
+.skill-bar-percent {
+  float: right;
+  display: inline-block;
+  color: #323232;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+/* old previous */
 .progress-skills{
     margin-bottom: 48px;
     margin-top: 5rem;
@@ -254,10 +278,9 @@ a.navbar-brand:hover{
 
 /*-------------------------------------------------------------------CONTACT FORM*/
 
-
-
-
-/* 
+.form-box h1{
+    text-align: center;
+}
 
 #contact{
     padding: 0px;
@@ -270,9 +293,13 @@ a.navbar-brand:hover{
     font-size: 1.5rem;
 }
 
+.list-inline li a{
+    text-align: center;
+}
+
 .list-inline li i:hover{
     color: #303030;
-} */
+} 
 
 /*-------------------------------------------------------------------------FOOTER*/
 
@@ -316,6 +343,9 @@ a.navbar-brand:hover{
 /* @media screen and (min-width: 0px) and (max-width: 20px) {
   .social-networks { display: none; }
  } */
+ @media screen and (min-width: 768px)and (max-width:1920px){
+     .nav-item-home{display: none;}
+}
 
  @media screen and (min-width: 0px) and (max-width: 568px){
   .navbar-brand { display: none; }
@@ -325,8 +355,8 @@ a.navbar-brand:hover{
 
 @media screen and (min-width:0px) and (max-width: 320px){
     .navbar-toggler navbar-toggler-icon{margin-left: auto;}
-    }
+}
 
 @media screen and (min-width:0px) and (max-width: 411px){
     .tech-image{display: none;}
-    }
+}
