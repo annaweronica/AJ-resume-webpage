@@ -43,7 +43,7 @@ a a:hover{
 .navbar-brand{
     font-family: "Zeyada", sans-serif;
     font-size: 3rem;
-    margin-left: 12rem;
+    margin-left: 7rem;
     padding-left: 3rem;
 }
 
@@ -71,7 +71,7 @@ a.navbar-brand:hover{
 
 .landing-image{
     background: url("../images/landing-image.png");
-    background-position: center;
+    background-position: bottom;
     background-repeat: no-repeat;
     background-size: contain;
     height: 30vh;
@@ -114,7 +114,7 @@ a.navbar-brand:hover{
     background-repeat: no-repeat;
     background-size: contain;
     height: 30vh;
-    margin-top: 100px;
+    margin-top: 40px;
 }
 
 .card-image{
@@ -141,9 +141,9 @@ a.navbar-brand:hover{
     /* margin-bottom: 1rem; */
      z-index: -1;
 }
-.cards-agile{
-    margin-bottom: 139px;
-}
+/* .cards-agile{
+    margin-bottom: 30px;
+} */
 
 .cards-softskills{
     margin-bottom: 163px;
@@ -152,8 +152,8 @@ a.navbar-brand:hover{
 /*-------------------------------------------------------------------CARDS LANDING PAGE*/
 
 .card-content-top{
-    margin-top: 8rem;
-    padding-top: 8rem;
+    margin-top: 3rem;
+    padding-top: 4rem;
 }
 
 .landing-content h4{
@@ -161,6 +161,16 @@ a.navbar-brand:hover{
     font-size: 1rem;
     letter-spacing: 5px;
     text-align: center;
+}
+
+.landing-content p{
+    text-indent: 50px;
+    text-align: justify;
+    letter-spacing: 2px;
+}
+
+.landing-content p i:hover{
+    color: #303030;
 }
 
 /*-------------------------------------------------------------------PROGRESS SKILLS*/
@@ -177,18 +187,20 @@ a.navbar-brand:hover{
     height: 3px;
     position: absolute;
     width: 100%;
+    border-radius: 10px;
     z-index: -1;
 }
 
 .skillbar-bar {
     height: 3px;
     width: 0px;
-    background: #323232;
+    background: #303030;
+    border-radius: 10px;
     transition-property: width, background-color;
 }
 
 .skillbar-title {
-  color: #323232;
+  color: #303030;
   font-size: 11px;
   font-weight: 600;
   /* text-transform: uppercase; */
@@ -198,7 +210,7 @@ a.navbar-brand:hover{
 .skill-bar-percent {
   float: right;
   display: inline-block;
-  color: #323232;
+  color: #303030;
   font-size: 11px;
   font-weight: 600;
   text-transform: uppercase;
@@ -279,15 +291,20 @@ a.navbar-brand:hover{
 /*-------------------------------------------------------------------CONTACT FORM*/
 
 .form-box h1{
+    position: center;
     text-align: center;
+    font-family: inherit;
+    font-size: 1.5rem;
 }
 
 #contact{
     padding: 0px;
     margin-top: 0px;
-    
 }
 
+.list-inline li i{
+    text-align: right;
+}
 .list-inline li i{
     color: #6c757d;
     font-size: 1.5rem;
@@ -301,11 +318,16 @@ a.navbar-brand:hover{
     color: #303030;
 } 
 
+#contact list-styled{
+    display: inline;
+    font-size: 1.5rem;
+}
+
 /*-------------------------------------------------------------------------FOOTER*/
 
 #sticky-footer {
   flex-shrink: 0;
-  margin-top: 84px;
+  margin-top: 40px;
 }
 
 .download a{
