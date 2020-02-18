@@ -37,7 +37,7 @@ a a:hover{
 }
 
 .navbar-nav{
-    margin-right: 20rem;
+    margin-right: 10rem;
 }
 
 .navbar-brand{
@@ -70,12 +70,12 @@ a.navbar-brand:hover{
 /*-------------------------------------------------------------------IMAGES*/
 
 .landing-image{
-    background: url("../images/landing-image.png");
-    background-position: bottom;
-    background-repeat: no-repeat;
+    background: url("../images/landing-image.png") no-repeat center center;
+    background-position: center;
     background-size: contain;
-    height: 30vh;
+    height: 50vh;
     max-width: 100%;
+    margin-top: 140px;
  }
 
 .tech-image{
@@ -152,8 +152,8 @@ a.navbar-brand:hover{
 /*-------------------------------------------------------------------CARDS LANDING PAGE*/
 
 .card-content-top{
-    margin-top: 8rem;
-    padding-top: 4rem;
+    margin-top: 1rem;
+    padding-top: 1rem;
 }
 
 .landing-content h4{
@@ -246,15 +246,16 @@ a.navbar-brand:hover{
 .typewriter h1{
   overflow: hidden; /* Ensures the content is not revealed until the animation */
   position: relative;
+  /* height: 2rem; */
   font-family: 'Press Start 2P', cursive;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   border-right: .15em solid black; /* The typwriter cursor */
   white-space: nowrap; /* Keeps the content on a single line */
   /* margin: 0 auto; Gives that scrolling effect as the typing happens */
   padding-top: 10vh;
-  margin-top: 6vh;
-  padding-bottom: 10vh;
-  margin-bottom: 12vh;
+  /* margin-top: 2vh; */
+  /* padding-bottom: 10vh;
+  margin-bottom: 12vh; */
   margin-left: auto;
   margin-right: auto;
   padding: 0 10px 0 10px;
