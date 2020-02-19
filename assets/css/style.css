@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Zeyada|Press+Start+2P&display=swap:100,200,300,400,500,600,700');
-
-/* div{
+/* 
+div{
     border: solid 1px black;
-}  */
+}   */
 
 html, body {
   height: 100%;
@@ -90,6 +90,8 @@ a.navbar-brand:hover{
     height: auto;
     overflow-y: hidden;
     overflow-x: hidden;
+    padding-top: 50px;
+    margin-top: -10px;
 }
 
 /*-------------------------------------------------------------------IMAGES*/
@@ -128,7 +130,7 @@ a.navbar-brand:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    height: 30vh;
+    height: 27vh;
     margin-top: 4rem;
     z-index: -1;
 }
@@ -317,6 +319,10 @@ a.navbar-brand:hover{
     font-size: 1.5rem;
 }
 
+.form-box{
+    width: 100%;
+}
+
 .contact-map{
     border: #6c757d 1px solid;
     border-radius: 5px;
@@ -357,9 +363,6 @@ iframe{
 
 .list-inline li i{
     text-align: right;
-}
-
-.list-inline li i{
     color: #C4C8C4;
     font-size: 1.5rem;
 }
@@ -368,15 +371,21 @@ iframe{
     text-align: center;
 }
 
+.list-inline{
+    margin-bottom: 5px;
+    padding-top: 7px;
+}
+
 .list-inline li i:hover{
     color: #F4F7F4;
 } 
 
-.contact-info .phone{
+
+/* .contact-info .phone{
     display: inline;
     text-align: left;
     font-size: 0.9rem;
-}
+} */
 
 /*-------------------------------------------------------------------MEDIA QUERIES*/
 
