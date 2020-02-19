@@ -9,6 +9,7 @@ html, body {
 }
 
 body{
+    position: relative;
     font-family: "Montserrat", sans-serif;
     font-size: 1rem;
     color: 	#303030;
@@ -52,7 +53,7 @@ a a:hover{
     text-align: right;
     font-size: 1rem;
     text-decoration: none;
-    color: #fff !important;
+    color: #fff;
     margin-right: 1rem;
 }
 
@@ -61,11 +62,33 @@ a.navbar-brand:hover{
 }
 
 .navbar-nav a:hover{
-    border-bottom: 1px solid #303030;
+    border-bottom: 1px solid #fff;
 }
 .navbar-toggler-icon{
     margin-left: auto;
     }
+
+    /*-------------------------------------------------------------------------SCROLLspy*/
+
+#contact{
+    padding: 0px;
+    margin-top: 0px;
+    height: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#tech{
+    height: auto;
+    overflow-y: hidden; 
+    overflow-x: hidden;
+} 
+
+#agile{
+    height: auto;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
 
 /*-------------------------------------------------------------------IMAGES*/
 
@@ -145,16 +168,7 @@ a.navbar-brand:hover{
     margin-bottom: 30px;
 } */
 
-.cards-softskills{
-    margin-bottom: 163px;
-}
-
 /*-------------------------------------------------------------------CARDS LANDING PAGE*/
-
-.card-content-top{
-    margin-top: 1rem;
-    padding-top: 1rem;
-}
 
 .landing-content h4{
     font-family: 'Press Start 2P', cursive;
@@ -173,6 +187,7 @@ a.navbar-brand:hover{
 }
 
 /*-------------------------------------------------------------------PROGRESS SKILLS*/
+
 .skillbar{
     /* position: relative; */
     display: block;
@@ -239,6 +254,7 @@ a.navbar-brand:hover{
 }
 
 /*-------------------------------------------------------------------TYPEWRITER*/
+
 .content{
   flex: 1 0 auto;
 }
@@ -297,16 +313,32 @@ a.navbar-brand:hover{
     font-size: 1.5rem;
 }
 
-#contact{
-    padding: 0px;
-    margin-top: 0px;
+/*-------------------------------------------------------------------------FOOTER*/
+
+#sticky-footer {
+  flex-shrink: 0;
+  margin-top: 40px;
+}
+
+#sticky-footer list-styled{
+    display: inline;
+    font-size: 1.5rem;
+}
+
+.download a{
+    color: #fff;
+}
+
+.list-styled li i{
+    color: #6c757d;
 }
 
 .list-inline li i{
     text-align: right;
 }
+
 .list-inline li i{
-    color: #6c757d;
+    color: #C4C8C4;
     font-size: 1.5rem;
 }
 
@@ -315,27 +347,13 @@ a.navbar-brand:hover{
 }
 
 .list-inline li i:hover{
-    color: #303030;
+    color: #F4F7F4;
 } 
 
-#contact list-styled{
+.list-unstyled-contact li{
     display: inline;
-    font-size: 1.5rem;
-}
-
-/*-------------------------------------------------------------------------FOOTER*/
-
-#sticky-footer {
-  flex-shrink: 0;
-  margin-top: 40px;
-}
-
-.download a{
-    color: #fff;
-}
-
-.list-styled h5 i{
-    color: #6c757d;
+    text-align: left;
+    font-size: 0.9rem;
 }
 
 /*-------------------------------------------------------------------MEDIA QUERIES*/
@@ -373,6 +391,7 @@ a.navbar-brand:hover{
   .navbar-brand { display: none; }
   .copy-right{ display: none; }
   .navbar-toggler-icon{margin-left: auto;}
+  .list-inline li i {display: none;}
 }
 
 @media screen and (min-width:0px) and (max-width: 320px){
