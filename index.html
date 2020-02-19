@@ -128,8 +128,6 @@
 									<a href="#" class="btn btn-outline-secondary" target="_blank">Portfolio</a>
 									<a href="https://www.istqb.org/" class="btn btn-outline-secondary"
 										target="_blank">ISTQB</a>
-									<!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-									<!--<button type="button" class="btn btn-outline-secondary">Read more</button>-->
 							</div>
 							<!--Card image-->
 							<div class="view overlay">
@@ -164,7 +162,6 @@
 				</div>
 				<!-- /Card deck -->
 			</div>
-
 
 			<!--PROGRESS SKILLS TECH-->
 			<div class="wrapper">
@@ -228,23 +225,28 @@
 										<button type="button" class="btn btn-outline-secondary" data-toggle="modal" data-target="#staticBackdropScrum">Video</button>
 
 										<!-- Modal -->
-										<div class="modal fade" id="myModal" data-backdrop="static" tabindex="-1"
-											role="dialog" aria-labelledby="staticBackdropScrumLabel" aria-hidden="true">
+										<div class="modal fade" id="staticBackdropScrum" data-backdrop="static"
+											tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel"
+											aria-hidden="true">
 											<div class="modal-dialog" role="document">
 												<div class="modal-content">
 													<div class="modal-header">
-														<h5 class="modal-title" id="staticBackdropScrumLabel">Acceptance
-															crieria versus Definition of Done</h5>
-														<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                       </button>
+														<h5 class="modal-title" id="staticBackdropLabel">SAFe 5.0
+															overview
+														</h5>
+														<button type="button" class="close staticBackdrop-close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span>
+                                                             </button>
 													</div>
 													<div class="modal-body">
-														<iframe width="420" height="345"
-															src="https://youtu.be/ZxXL_sP-sqQ"></iframe>
-													</div>
-													<div class="modal-footer">
-														<button type="button" class="btn btn-outline-secondary" data-dismiss="modal">Close</button>
+														<iframe id="staticBackdropScrum-iframe" width="560" height="315"
+															src="https://www.youtube.com/embed/ZxXL_sP-sqQ"
+															frameborder="0"
+															allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+															allowfullscreen></iframe>
+
+														<div class="modal-footer">
+															<button type="button" class="btn btn-outline-secondary close staticBackdrop-close" id="staticBackdrop-close" data-dismiss="modal">Close</button>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -285,7 +287,7 @@
                                                              </button>
 													</div>
 													<div class="modal-body">
-														<iframe id="staticBackdrop-iframe" width="560" height="315"
+														<iframe id="staticBackdrop-iframe" width="560" height="615"
 															src="https://www.youtube.com/embed/aW2m-BtCJyE"
 															frameborder="0"
 															allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -346,16 +348,9 @@
 					<div class="container">
 						<div class="row justify-content-center">
 							<div class="col-sm-6 contact-map">
-								<!-- <iframe src="https://maps.google.com/maps?width=500&amp;height=400&amp;hl=en&amp;q=Kista%2C%20Stockholm+(Address)&amp;ie=UTF8&amp;t=p&amp;z=9&amp;iwloc=B&amp;output=embed"
-								allowfullscreen></iframe> -->
-
-								<!-- <div class="embed-responsive embed-responsive-16by9"> -->
 								<iframe class="embed-responsive-item"
 									src="https://maps.google.com/maps?width=500&amp;height=400&amp;hl=en&amp;q=Kista%2C%20Stockholm+(Address)&amp;ie=UTF8&amp;t=p&amp;z=9&amp;iwloc=B&amp;output=embed"
 									allowfullscreen></iframe>
-								<!-- </div> -->
-
-
 							</div>
 							<div class="col-sm-6">
 								<div class="form-box">
@@ -484,6 +479,13 @@
         $(function(){
             $('.staticBackdrop-close').click(function(){      
                 $('#staticBackdrop-iframe').attr('src', $('#staticBackdrop-iframe').attr('src'));
+            });
+        });
+	</script>
+	<script>
+		$(function(){
+            $('.staticBackdropScrum-close').click(function(){      
+                $('#staticBackdropScrum-iframe').attr('src', $('#staticBackdropScrum-iframe').attr('src'));
             });
         });
 	</script>

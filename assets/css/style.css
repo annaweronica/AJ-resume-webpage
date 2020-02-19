@@ -416,6 +416,7 @@ iframe{
   .list-inline li i {display: none;}
   .nav-item{text-align: right;}
   .navbar-nav{margin-right: 0;}
+  .contact-map {display: none;}
 }
 
 @media screen and (min-width:0px) and (max-width: 320px){
