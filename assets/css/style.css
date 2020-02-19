@@ -313,6 +313,14 @@ a.navbar-brand:hover{
     font-size: 1.5rem;
 }
 
+.contact-map{
+    position: center;
+    /* padding: 5px; */
+    margin-top: 20px;
+    border: #6c757d 1px solid;
+    border-radius: 5px;
+}
+
 /*-------------------------------------------------------------------------FOOTER*/
 
 #sticky-footer {
@@ -350,7 +358,7 @@ a.navbar-brand:hover{
     color: #F4F7F4;
 } 
 
-.list-unstyled-contact li{
+.contact-info .phone{
     display: inline;
     text-align: left;
     font-size: 0.9rem;
