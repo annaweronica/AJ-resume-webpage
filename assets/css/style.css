@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Zeyada|Press+Start+2P&display=swap:100,200,300,400,500,600,700');
-/* 
-div{
+
+/* div{
     border: solid 1px black;
 }   */
 
@@ -63,7 +63,6 @@ a.navbar-brand:hover{
 
 .navbar-nav a:hover{
     /* border-bottom: 1px solid #fff; */
-    font-weight: 3px;
     color: #fff;
 }
 .navbar-toggler-icon{
@@ -143,7 +142,7 @@ a.navbar-brand:hover{
     background-repeat: no-repeat;
     background-size: contain;
     height: 30vh;
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .card-image{
@@ -180,15 +179,8 @@ a.navbar-brand:hover{
 
 .portfolio{
     color: black;
-    font-weight: 4px;
 }
 
-/*-------------------------------------------------------------------MODELS*/
-
-.model-footer #staticBackdrop-close{
-    text-decoration: none;
-    background-color: red;
-} 
 /*-------------------------------------------------------------------CARDS LANDING PAGE*/
 
 .landing-content h4{
@@ -207,8 +199,8 @@ a.navbar-brand:hover{
     color: #303030;
 }
 
-.landing-content p i{
-    color: black;
+.landing-content-item a{
+    color: #242524;
 }
 
 /*-------------------------------------------------------------------PROGRESS SKILLS*/
@@ -349,6 +341,13 @@ a.navbar-brand:hover{
     padding: 0;
 }
 
+.contact-info-item.btn{
+    /* text-align: center; */
+    /* display: inline; */
+}
+
+
+
 /*-------------------------------------------------------------------IFRAMES*/
 
 iframe{
@@ -433,18 +432,18 @@ iframe{
   .social-networks { display: none; }
  } */
  @media screen and (min-width: 768px)and (max-width:1920px){
-     .nav-item-home{display: none;}
+     .nav-item-home{size 1rem;}
 }
 
  @media screen and (min-width: 0px) and (max-width: 568px){
-  .navbar-brand { display: none; }
+  /* .navbar-brand { display: none; } */
   .copy-right{ display: none; }
   .navbar-toggler-icon{margin-left: auto;}
   /* .list-inline li i {display: none;} */
   .nav-item{text-align: right;}
   .navbar-nav{margin-right: 0;}
   .contact-map {display: none;}
-  .navbar-nav a:hover{border-bottom: none; font-weight: 3px;
+  .navbar-nav a:hover{border-bottom: none;
 }
 }
 
