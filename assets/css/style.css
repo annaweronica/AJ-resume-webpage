@@ -25,7 +25,6 @@ a{
 
 a a:hover{
     color:#303030;
-    /* text-decoration-line: none; */
 }
 
 /*------------------------------------------------------------------HEADER*/
@@ -44,7 +43,7 @@ a a:hover{
 .navbar-brand{
     font-family: "Zeyada", sans-serif;
     font-size: 3rem;
-    margin-left: 7rem;
+    margin-left: 17rem;
     padding-left: 3rem;
 }
 
