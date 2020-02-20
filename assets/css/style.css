@@ -193,6 +193,10 @@ a.navbar-brand:hover{
     color: #303030;
 }
 
+.landing-content p i{
+    color: black;
+}
+
 /*-------------------------------------------------------------------PROGRESS SKILLS*/
 
 .skillbar{
