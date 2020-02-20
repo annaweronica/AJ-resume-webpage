@@ -153,13 +153,13 @@ a.navbar-brand:hover{
 
 .card-body{
     text-align:justify; 
-    /* text-justify:inter-character;*/
+    text-justify:inter-character;
     padding: 1.5rem;
 }
 
 .card-text{
     text-align: none;
-    color: red;
+    /* color: red; */
 }
 
 .card{
@@ -413,120 +413,46 @@ iframe{
 
 /*-------------------------------------------------------------------MEDIA QUERIES*/
 
-/* @media screen and (max-width: 320px){
-.landing-image{
-    margin-top: 5rem;
-} */
-
 @media screen and (min-width:0px) and (max-width: 320px){
     .navbar-toggler navbar-toggler-icon{margin-left: auto;}
 }
 
 @media screen and (max-width: 320px){
-  .typewriter{
-    float: none;
-    /* background-color: blue; */
-    margin: 0 auto;
-    
-  }
-
-  .typewriter h1{
-    font-size: 0.8rem;
-    margin-bottom: 15px;
-   }
+  .typewriter{float: none; margin: 0 auto;}
+  .typewriter h1{font-size: 0.8rem; margin-bottom: 15px;}
 
 @keyframes typing{
   from { width: 0 }
   to { width: 100% }
     }
 
-    .navbar-brand{
-    font-size: 1.8rem;
-    margin-left: 0.5rem;
-    padding-left: 0.5rem;
-    }
-
-    .nav-item a{
-        font-size: 0.8rem;
-    }
-
-    .btn-outline-secondary{
-        font-size: 0.8rem;
-    }
-
-    .landing-image{
-        margin-top: 170px;
-    }
-
-    .card-text{
-        font-size: 0.8rem;
-    }
-
-    .card-title{
-        font-size: 1.1rem;
-        margin-top: 20px;
-        text-align: none;
-}
-    .card-content-top{
-        margin-bottom: 0;
-    }
-
-    .card-wrapper-tech{
-        margin-top:1.5rem;
-        margin-bottom: 0;
-    }
-
-    #tech{
-        padding-top: 0;
-    }
-
-    .cards-content{
-        margin: 0;
-    }
-
-    .landing-content{
-        margin-top: 0;
-    }
-
-    .backend-image{
-        margin-bottom: 20px;
-    }
-
-    .agile-image{
-        margin-top: 1rem;
-        margin-bottom: 2rem;
-    }
-
-    .card-body{
-        margin-top: 0;
-        margin-bottom: 0;
-        padding-top: 0;
-    }
-
-    .contact-image{
-        margin-top: 15px;
-        margin-bottom: 20px;
-    }
-
-    .contact-info-box h1{
-        font-size: 2rem !important;
-    }
-
-    .title-contact-form h4{
-        margin-top: 0.8rem;
-    }
-
-    .list-inline li i{
-        font-size: 1rem;
-    }
+    .navbar-brand{font-size: 1.8rem; margin-left: 0.5rem; padding-left: 0.5rem;}
+    .nav-item a{font-size: 0.8rem;}
+    .btn-outline-secondary{font-size: 0.8rem;}
+    .landing-image{margin-top: 170px;}
+    .card-text{font-size: 0.8rem;}
+    .card-title{font-size: 1.1rem; margin-top: 20px; text-align: none;}
+    .card-content-top{margin-bottom: 0;}
+    .card-wrapper-tech{margin-top:1.5rem;  margin-bottom: 0;}
+    #tech{padding-top: 0;}
+    .cards-content{margin: 0;}
+    .landing-content{margin-top: 0;}
+    .backend-image{margin-bottom: 20px;}
+    .agile-image{margin-top: 1rem; margin-bottom: 2rem;}
+    .card-body{margin-top: 0; margin-bottom: 0; padding-top: 0;}
+    .contact-image{margin-top: 15px; margin-bottom: 20px;}
+    .contact-info-box h1{ font-size: 2rem !important;}
+    .title-contact-form h4{ margin-top: 0.8rem;}
+    .list-inline li i{font-size: 1rem;}
 }
 
-@media screen and (min-width:0px) and (max-width: 411px){
+@media screen and (min-width:0px) and (max-width: 414px){
     .tech-image{display: none;}
+     .navbar-brand{font-size: 2rem; margin-left: 0.8rem; padding-left: 0.7rem;}
 }
 
  @media screen and (min-width: 0px) and (max-width: 568px){
-  /* .navbar-brand { display: none; } */
+  .navbar-brand { display: none; }
   .copy-right{ display: none; }
   .navbar-toggler-icon{margin-left: auto;}
   /* .list-inline li i {display: none;} */
@@ -536,6 +462,31 @@ iframe{
   .navbar-nav a:hover{border-bottom: none;}
 }
 
- @media screen and (min-width: 768px)and (max-width:1920px){
+ @media screen and (min-width: 768px)and (max-width:1024px){
+    .navbar-brand{font-size: 2.5rem; margin-left: 0.8rem; padding-left: 0.7rem;}
+    .nav-item-home{display: none}
+    .nav-item a{font-size: 1.2rem;}
+     .card-text{font-size: 1.3rem;}
+    .btn-outline-secondary{font-size: 1rem;}
+    .landing-image{margin-top: 170px;}
+   /* .tech-image{display: block;} */
+    .card-content-top{margin-bottom: 2rem;}
+    .card-title{font-size: 1.1rem; margin-top: 20px; text-align: none;}
+   
+    .card-wrapper-tech{margin-top:1.5rem;  margin-bottom: 0;}
+    #tech{padding-top: 0;}
+    .cards-content{margin: 0;}
+    .landing-content{margin-top: 0;}
+    .backend-image{margin-bottom: 20px;}
+    .agile-image{margin-top: 1rem; margin-bottom: 2rem;}
+    .card-body{margin-top: 0; margin-bottom: 0; padding-top: 0;}
+    .contact-image{margin-top: 15px; margin-bottom: 20px;}
+    .contact-info-box h1{ font-size: 2rem !important;}
+    .contact-map {display: auto;}
+    .title-contact-form h4{ margin-top: 0.8rem;}
+    .list-inline li i{font-size: 1rem;}
+}
+
+ @media screen and (min-width: 1024px)and (max-width:1920px){
      .nav-item-home{display: none}
 }
