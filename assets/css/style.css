@@ -142,7 +142,7 @@ a.navbar-brand:hover{
     background-repeat: no-repeat;
     background-size: contain;
     height: 30vh;
-    margin-top: 20px;
+    margin-top: 60px;
     margin-bottom: 10px;
 }
 
@@ -324,29 +324,39 @@ a.navbar-brand:hover{
 
 /*-------------------------------------------------------------------CONTACT FORM*/
 
-.form-box h2, .form-box p{
+.form-box h1{
     text-align: center;
     font-family: inherit;
-    font-size: 1.5rem;
+    /* font-size: 1.5rem; */
+    margin-top: 2rem;
 }
 
 .form-box{
     width: 100%;
 }
 
-.contact-map{
+/* .contact-map{
     border: #6c757d 1px solid;
     border-radius: 5px;
     width:100%; 
     height:400px; 
     padding: 0;
+} */
+
+.contact-map-wrapper{
+    width: 80%;
+    height: 350px;
+    /* padding:20px; */
+    border-radius: 8px;
+    border:  #6c757d 1px solid;
+    margin-left: 7.5rem;
+    margin-top: 1.8rem;
+    
 }
 
 .contact-info{
     margin-bottom: 20px;
 }
-
-
 
 /*-------------------------------------------------------------------IFRAMES*/
 
@@ -355,7 +365,6 @@ iframe{
     height: 100%;
     border: 0;
 }
-
 
 /*-------------------------------------------------------------------------FOOTER*/
 
@@ -371,7 +380,6 @@ iframe{
 
 .download a{
     color: #fff;
-
 }
 
 .list-styled li i{
@@ -396,13 +404,6 @@ iframe{
 .list-inline li i:hover{
     color: #F4F7F4;
 } 
-
-
-/* .contact-info .phone{
-    display: inline;
-    text-align: left;
-    font-size: 0.9rem;
-} */
 
 /*-------------------------------------------------------------------MEDIA QUERIES*/
 
@@ -443,8 +444,7 @@ iframe{
   .nav-item{text-align: right;}
   .navbar-nav{margin-right: 0;}
   .contact-map {display: none;}
-  .navbar-nav a:hover{border-bottom: none;
-}
+  .navbar-nav a:hover{border-bottom: none;}
 }
 
 @media screen and (min-width:0px) and (max-width: 320px){
