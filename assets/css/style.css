@@ -152,9 +152,14 @@ a.navbar-brand:hover{
 /*-------------------------------------------------------------------CARDS*/
 
 .card-body{
-    text-align:justify;  
-    text-justify:inter-character;
+    text-align:justify; 
+    /* text-justify:inter-character;*/
     padding: 1.5rem;
+}
+
+.card-text{
+    text-align: none;
+    color: red;
 }
 
 .card{
@@ -184,7 +189,6 @@ a.navbar-brand:hover{
 /*-------------------------------------------------------------------CARDS LANDING PAGE*/
 
 .landing-content{
-    border: grey solid 0.5px; 
     border-radius: 5px;
     margin-top: 10px;
 }
@@ -194,11 +198,11 @@ a.navbar-brand:hover{
     letter-spacing: 5px;
 }
 
-.landing-content p{
-    /* text-indent: 50px; */
-    text-align: justify;
+/* .landing-content p{
+    text-indent: 50px; 
+    text-align: justify; 
     letter-spacing: 2px;
-}
+} */
 
 .landing-content p i:hover{
     color: #303030;
@@ -414,15 +418,21 @@ iframe{
     margin-top: 5rem;
 } */
 
+@media screen and (min-width:0px) and (max-width: 320px){
+    .navbar-toggler navbar-toggler-icon{margin-left: auto;}
+}
+
 @media screen and (max-width: 320px){
   .typewriter{
     float: none;
     /* background-color: blue; */
     margin: 0 auto;
+    
   }
 
   .typewriter h1{
     font-size: 0.8rem;
+    margin-bottom: 15px;
    }
 
 @keyframes typing{
@@ -440,28 +450,79 @@ iframe{
         font-size: 0.8rem;
     }
 
+    .btn-outline-secondary{
+        font-size: 0.8rem;
+    }
+
     .landing-image{
-        margin-top: 185px;
+        margin-top: 170px;
     }
 
     .card-text{
-        font-size: 1rem;
+        font-size: 0.8rem;
     }
 
+    .card-title{
+        font-size: 1.1rem;
+        margin-top: 20px;
+        text-align: none;
+}
     .card-content-top{
-        margin: 0;
+        margin-bottom: 0;
+    }
+
+    .card-wrapper-tech{
+        margin-top:1.5rem;
+        margin-bottom: 0;
     }
 
     #tech{
         padding-top: 0;
     }
+
+    .cards-content{
+        margin: 0;
+    }
+
+    .landing-content{
+        margin-top: 0;
+    }
+
+    .backend-image{
+        margin-bottom: 20px;
+    }
+
+    .agile-image{
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+    }
+
+    .card-body{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+    }
+
+    .contact-image{
+        margin-top: 15px;
+        margin-bottom: 20px;
+    }
+
+    .contact-info-box h1{
+        font-size: 2rem !important;
+    }
+
+    .title-contact-form h4{
+        margin-top: 0.8rem;
+    }
+
+    .list-inline li i{
+        font-size: 1rem;
+    }
 }
 
-/* @media screen and (min-width: 0px) and (max-width: 20px) {
-  .social-networks { display: none; }
- } */
- @media screen and (min-width: 768px)and (max-width:1920px){
-     .nav-item-home{display: none}
+@media screen and (min-width:0px) and (max-width: 411px){
+    .tech-image{display: none;}
 }
 
  @media screen and (min-width: 0px) and (max-width: 568px){
@@ -475,10 +536,6 @@ iframe{
   .navbar-nav a:hover{border-bottom: none;}
 }
 
-@media screen and (min-width:0px) and (max-width: 320px){
-    .navbar-toggler navbar-toggler-icon{margin-left: auto;}
-}
-
-@media screen and (min-width:0px) and (max-width: 411px){
-    .tech-image{display: none;}
+ @media screen and (min-width: 768px)and (max-width:1920px){
+     .nav-item-home{display: none}
 }
