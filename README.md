@@ -4,13 +4,26 @@ Welcome,
 
 
 ## UX
-
+bla bla bla vla 
 
 ## Featuers 
 
 
 ### Technologies
 
+
+###Testing
+
+**HTML Validator**
+screen shot with date and result
+
+**CSS Validator**
+screen shot with date and result
+
+**Manual Testing**
+-Breakpoint 1920px
+
+The page has been tasted for following browsers: 
 
 #### Content
 
