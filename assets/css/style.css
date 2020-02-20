@@ -43,7 +43,7 @@ a a:hover{
 .navbar-brand{
     font-family: "Zeyada", sans-serif;
     font-size: 3rem;
-    margin-left: 17rem;
+    margin-left: 15rem;
     padding-left: 3rem;
 }
 
@@ -102,7 +102,7 @@ a.navbar-brand:hover{
     background-size: contain;
     height: 50vh;
     max-width: 100%;
-    margin-top: 140px;
+    margin-top: 120px;
  }
 
 .tech-image{
@@ -183,6 +183,11 @@ a.navbar-brand:hover{
 
 /*-------------------------------------------------------------------CARDS LANDING PAGE*/
 
+.landing-content{
+    border: grey solid 0.5px; 
+    border-radius: 5px;
+    margin-top: 10px;
+}
 .landing-content h4{
     font-family: 'Press Start 2P', cursive;
     font-size: 1rem;
@@ -248,7 +253,7 @@ a.navbar-brand:hover{
 }
 
 /* old previous */
-.progress-skills{
+/* .progress-skills{
     margin-bottom: 48px;
     margin-top: 5rem;
      z-index: -1;
@@ -268,7 +273,7 @@ a.navbar-brand:hover{
 .progress-type{
     color: #fff;
     text-align: right;
-}
+} */
 
 /*-------------------------------------------------------------------TYPEWRITER*/
 
@@ -423,6 +428,32 @@ iframe{
 @keyframes typing{
   from { width: 0 }
   to { width: 100% }
+    }
+
+    .navbar-brand{
+    font-size: 1.8rem;
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;
+    }
+
+    .nav-item a{
+        font-size: 0.8rem;
+    }
+
+    .landing-image{
+        margin-top: 185px;
+    }
+
+    .card-text{
+        font-size: 1rem;
+    }
+
+    .card-content-top{
+        margin: 0;
+    }
+
+    #tech{
+        padding-top: 0;
     }
 }
 
