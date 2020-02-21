@@ -433,7 +433,7 @@ iframe{
     .card-text{font-size: 0.8rem;}
     .card-title{font-size: 1.1rem; margin-top: 20px; text-align: none;}
     .card-content-top{margin-bottom: 0;}
-    .card-wrapper-tech{margin-top:4rem;  margin-bottom: 0;}
+    .card-wrapper-tech{margin-top:0;  margin-bottom: 0;}
     #tech{padding-top: 0;}
     .cards-content{margin: 0;}
     /* .landing-content-item{margin-bottom: 1rem;} */
@@ -445,7 +445,7 @@ iframe{
     .contact-info-box h1{ font-size: 2rem !important;}
     .title-contact-form h4{ margin-top: 0.8rem;}
     .list-inline li i{font-size: 1rem;}
-    .contact-info p{font-size: 1rem auto;}
+    .contact-info p{font-size: 1rem;}
 }
 
 @media screen and (min-width:0px) and (max-width: 414px){
