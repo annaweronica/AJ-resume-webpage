@@ -3,10 +3,20 @@
 ![image](/assets/images/backend-image.png)
 ![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
 ## UX
-bla bla bla vla 
+
+Target Audience
+- Potentail recruiter or employer looking for a full stack developer.
+- Potentail co-worker who looks for a exchagne of knowledge
+- Random person who may be interested of changing a career.
+- Any person who is interested in technology and Agile framwroks, open for discussion.
 
 ## Featuers 
 
+- As a user, I want to learn what professional previous backgrad she has.
+- As a user, I want to learn who is Anna and what skills and competences does she have for programming role.
+- As a user, I want to see does she has experience and knowledge in Agile frameworks.
+- As a user, I want to has a posibility to contact Anna via phone, email or contact form.
+- As a user, I want to have a posibility of downloding CV in form of pdf.
 
 ### Technologies
 
@@ -35,6 +45,7 @@ Your Project's Name
 One or two paragraphs providing an overview of your project.
 
 Essentially, this part is your sales pitch.
+
 
 UX
 Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.

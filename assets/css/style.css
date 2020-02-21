@@ -43,7 +43,7 @@ a a:hover{
 .navbar-brand{
     font-family: "Zeyada", sans-serif;
     font-size: 3rem;
-    margin-left: 15rem;
+    margin-left: 5rem;
     padding-left: 3rem;
 }
 
@@ -343,12 +343,12 @@ a.navbar-brand:hover{
 }
 
 .contact-map-wrapper{
-    width: 90%;
+    width: 100%;
     height: 350px;
     /* padding:20px; */
     border-radius: 8px;
     border:  #6c757d 1px solid;
-    margin-left: 4rem;
+    /* margin-left: 4rem;*/
     margin-top: 1.9rem;
 }
 
@@ -429,21 +429,23 @@ iframe{
     .navbar-brand{font-size: 1.8rem; margin-left: 0.5rem; padding-left: 0.5rem;}
     .nav-item a{font-size: 0.8rem;}
     .btn-outline-secondary{font-size: 0.8rem;}
-    .landing-image{margin-top: 170px;}
+    .landing-image{margin-top: auto;}
     .card-text{font-size: 0.8rem;}
     .card-title{font-size: 1.1rem; margin-top: 20px; text-align: none;}
     .card-content-top{margin-bottom: 0;}
-    .card-wrapper-tech{margin-top:1.5rem;  margin-bottom: 0;}
+    .card-wrapper-tech{margin-top:4rem;  margin-bottom: 0;}
     #tech{padding-top: 0;}
     .cards-content{margin: 0;}
-    .landing-content{margin-top: 0;}
+    /* .landing-content-item{margin-bottom: 1rem;} */
     .backend-image{margin-bottom: 20px;}
     .agile-image{margin-top: 1rem; margin-bottom: 2rem;}
     .card-body{margin-top: 0; margin-bottom: 0; padding-top: 0;}
+    .card-body-front{margin-top: 2rem; padding-top: 2rem;}
     .contact-image{margin-top: 15px; margin-bottom: 20px;}
     .contact-info-box h1{ font-size: 2rem !important;}
     .title-contact-form h4{ margin-top: 0.8rem;}
     .list-inline li i{font-size: 1rem;}
+    .contact-info p{font-size: 1.2rem auto;}
 }
 
 @media screen and (min-width:0px) and (max-width: 414px){
@@ -460,8 +462,14 @@ iframe{
   .navbar-nav{margin-right: 0;}
   .contact-map {display: none;}
   .navbar-nav a:hover{border-bottom: none;}
+  .card-content-top{margin-bottom: 2rem;}
 }
 
+@media screen and (min-width: 568px) and (max-width: 768px){
+.navbar-brand { font-size: 2rem; margin-left: 0.5rem; padding-left: 0.3rem;}
+.navbar-nav{ margin-right: auto;
+}
+}
  @media screen and (min-width: 768px)and (max-width:1024px){
     .navbar-brand{font-size: 2.5rem; margin-left: 0.8rem; padding-left: 0.7rem;}
     .nav-item-home{display: none}
@@ -472,12 +480,12 @@ iframe{
    /* .tech-image{display: block;} */
     .card-content-top{margin-bottom: 2rem;}
     .card-title{font-size: 1.1rem; margin-top: 20px; text-align: none;}
-   
-    .card-wrapper-tech{margin-top:1.5rem;  margin-bottom: 0;}
-    #tech{padding-top: 0;}
+    .navbar-nav{ margin-right: auto;}
+    .card-wrapper-tech{margin-top:2rem;  margin-bottom: 0;}
+    #tech{padding-top: 1rem;}
     .cards-content{margin: 0;}
-    .landing-content{margin-top: 0;}
-    .backend-image{margin-bottom: 20px;}
+    .landing-content{margin-top: 1rem;}
+    .backend-image{margin-bottom: 60px;}
     .agile-image{margin-top: 1rem; margin-bottom: 2rem;}
     .card-body{margin-top: 0; margin-bottom: 0; padding-top: 0;}
     .contact-image{margin-top: 15px; margin-bottom: 20px;}
@@ -490,3 +498,4 @@ iframe{
  @media screen and (min-width: 1024px)and (max-width:1920px){
      .nav-item-home{display: none}
 }
+
