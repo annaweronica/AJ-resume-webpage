@@ -265,7 +265,7 @@ a.navbar-brand:hover{
   padding: 0 10px 0 10px;
   letter-spacing: .10em; /* Adjust as needed */
   animation: 
-    typing 16s steps(30,end) 1s 1 normal both, 
+    typing 12s steps(30,end) 1s 1 normal both, 
     blink-caret .75s steps(30,end) infinite;
   animation-iteration-count: infinite;
 }
@@ -381,25 +381,25 @@ iframe{
   .typewriter{float: none; margin: 0 auto;}
   .typewriter h1{font-size: 0.6rem; margin-bottom: 15px; 
   animation: 
-    typing 4s steps(22,end) 1s 1 normal both, 
+    typing 4s steps(30,end) 1s 1 normal both, 
     blink-caret .75s steps(30,end) infinite;
   animation-iteration-count: infinite;
-  letter-spacing: pre; /* Adjust as needed */
+  /* letter-spacing: pre; Adjust as needed */
   border-right: .2em solid black; /* The typwriter cursor */
   height: 1rem;
-  white-space: nowrap; /* Keeps the content on a single line */
-  margin-left: auto;
-  margin-right: auto;}
+  white-space: pre; /* Keeps the content on a single line */
+  margin-left: 0;
+  margin-right: 0;}
 
-/* @keyframes typing{
+@keyframes typing{
   from { width: 0 }
   to { width: 100% }
-    } */
+    }
 
     .navbar-brand{font-size: 1.8rem; margin-left: 0.5rem; padding-left: 0.5rem;}
     .nav-item a{font-size: 0.8rem;}
     .btn-outline-secondary{font-size: 0.8rem;}
-    .landing-image{margin-top: auto;}
+    .landing-image{margin-top: 2rem;}
     .card-text{font-size: 0.8rem;}
     .card-title{font-size: 1.1rem; margin-top: 20px;}
     .card-content-top{margin-bottom: 0;}
@@ -419,7 +419,24 @@ iframe{
 
 @media screen and (min-width:0px) and (max-width: 414px){
     .tech-image{display: none;}
-     .navbar-brand{font-size: 2rem; margin-left: 0.8rem; padding-left: 0.7rem;}
+    .navbar-brand{font-size: 2rem; margin-left: 0.8rem; padding-left: 0.7rem;}
+     .typewriter{float: none; margin: 0 auto;}
+  .typewriter h1{font-size: 0.8rem; margin-bottom: 15px; 
+  animation: 
+    typing 6s steps(30,end) 1s 1 normal both, 
+    blink-caret .75s steps(30,end) infinite;
+  animation-iteration-count: infinite;
+  /* letter-spacing: pre; Adjust as needed */
+  border-right: .2em solid black; /* The typwriter cursor */
+  height: 1rem;
+  white-space: pre; /* Keeps the content on a single line */
+  margin-left: 0;
+  margin-right: 0;}
+
+@keyframes typing{
+  from { width: 0 }
+  to { width: 100% }
+    }
 }
 
  @media screen and (min-width: 0px) and (max-width: 568px){
