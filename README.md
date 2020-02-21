@@ -20,6 +20,10 @@
 
 ### Technologies
 
+- HTML5
+- CSS/CSS3
+
+
 
 ###Testing
 
@@ -35,6 +39,11 @@ screen shot with date and result
 The page has been tasted for following browsers: 
 
 #### Content
+
+
+### Credits
+
+- 
 
 --------
 

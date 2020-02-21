@@ -270,6 +270,12 @@ a.navbar-brand:hover{
   animation-iteration-count: infinite;
 }
 
+.typewriter h2{
+    font-size: 1rem;
+    font-family: 'Press Start 2P', cursive;
+    color: red;
+}
+
 /* The typing effect */
 @keyframes typing{
   from { width: 0 }
@@ -377,23 +383,23 @@ iframe{
     .navbar-toggler navbar-toggler-icon{margin-left: auto;}
 }
 
-@media screen and (max-width: 320px){
-  .typewriter{float: none; margin: 0 auto;}
-  .typewriter h1{font-size: 0.6rem; margin-bottom: 15px; 
+@media screen and (min-width:0) and (max-width: 1024px){
+  .job-title-static h4{float: none; margin-bottom: 1rem; font-family: 'Press Start 2P'; font-size: 1rem;}
+  /* .typewriter h1{font-size: 0.6rem; margin-bottom: 15px; 
   animation: 
     typing 4s steps(30,end) 1s 1 normal both, 
     blink-caret .75s steps(30,end) infinite;
   animation-iteration-count: infinite;
-  /* letter-spacing: pre; Adjust as needed */
-  border-right: .2em solid black; /* The typwriter cursor */
+  letter-spacing: pre; Adjust as needed
+  border-right: .2em solid black; The typwriter cursor
   height: 1rem;
-  white-space: pre; /* Keeps the content on a single line */
+  white-space: pre; Keeps the content on a single line
   margin-left: 0;
   margin-right: 0;}
 
 @keyframes typing{
   from { width: 0 }
-  to { width: 100% }
+  to { width: 100% } */
     }
 
     .navbar-brand{font-size: 1.8rem; margin-left: 0.5rem; padding-left: 0.5rem;}
@@ -417,27 +423,33 @@ iframe{
     .contact-info p{font-size: 1rem;}
 }
 
-@media screen and (min-width:0px) and (max-width: 414px){
+/* @media screen and (min-width:0) and (max-width: 1024px){
+    .typewriter h1 {display: none;}
+
+@media screen and (min-width:0) and (max-width: 1024px){
+    .typewriter h2{position: relative; height: 2rem; font-family: 'Press Start 2P', cursive; color: red; font-size: 1.2rem;} */
+
+/* @media screen and (min-width:1024px) and (max-width: 3840px){
     .tech-image{display: none;}
     .navbar-brand{font-size: 2rem; margin-left: 0.8rem; padding-left: 0.7rem;}
-     .typewriter{float: none; margin: 0 auto;}
-  .typewriter h1{font-size: 0.8rem; margin-bottom: 15px; 
+    .typewriter{float: none; margin: 0 auto;}
+    .typewriter h1{font-size: 0.8rem; margin-bottom: 15px; 
   animation: 
     typing 6s steps(30,end) 1s 1 normal both, 
     blink-caret .75s steps(30,end) infinite;
   animation-iteration-count: infinite;
-  /* letter-spacing: pre; Adjust as needed */
-  border-right: .2em solid black; /* The typwriter cursor */
+  letter-spacing: pre; Adjust as needed
+  border-right: .2em solid black; The typwriter cursor
   height: 1rem;
-  white-space: pre; /* Keeps the content on a single line */
-  margin-left: 0;
+  white-space: pre; Keeps the content on a single line
+  margin-left: auto;
   margin-right: 0;}
 
 @keyframes typing{
   from { width: 0 }
   to { width: 100% }
     }
-}
+} */
 
  @media screen and (min-width: 0px) and (max-width: 568px){
     .navbar-brand { display: none; }
