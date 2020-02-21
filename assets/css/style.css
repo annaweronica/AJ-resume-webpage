@@ -413,26 +413,26 @@ iframe{
 }
 
  @media screen and (min-width: 0px) and (max-width: 568px){
-  .navbar-brand { display: none; }
-  .copy-right{ display: none; }
-  .navbar-toggler-icon{margin-left: auto;}
-  .nav-item{text-align: right;}
-  .navbar-nav{margin-right: 0;}
-  .contact-map {display: none;}
-  .navbar-nav a:hover{border-bottom: none;}
-  .card-content-top{margin-bottom: 2rem;}
+    .navbar-brand { display: none; }
+    .copy-right{ display: none; }
+    .navbar-toggler-icon{margin-left: auto;}
+    .nav-item{text-align: right;}
+    .navbar-nav{margin-right: 0;}
+    .contact-map {display: none;}
+    .navbar-nav a:hover{border-bottom: none;}
+    .card-content-top{margin-bottom: 2rem;}
 }
 
 @media screen and (min-width: 568px) and (max-width: 768px){
-.navbar-brand { font-size: 2rem; margin-left: 0.5rem; padding-left: 0.3rem;}
-.navbar-nav{ margin-right: auto;
+    .navbar-brand { font-size: 2rem; margin-left: 0.5rem; padding-left: 0.3rem;}
+    .navbar-nav{ margin-right: auto;
 }
 }
  @media screen and (min-width: 768px)and (max-width:1024px){
     .navbar-brand{font-size: 2.5rem; margin-left: 0.8rem; padding-left: 0.7rem;}
     .nav-item-home{display: none}
     .nav-item a{font-size: 1.2rem;}
-     .card-text{font-size: 1.3rem;}
+    .card-text{font-size: 1.3rem;}
     .btn-outline-secondary{font-size: 1rem;}
     .landing-image{margin-top: 170px;}
     .card-content-top{margin-bottom: 2rem;}
@@ -452,5 +452,5 @@ iframe{
 }
 
  @media screen and (min-width: 1024px)and (max-width:1920px){
-     .nav-item-home{display: none}
+    .nav-item-home{display: none}
 }
