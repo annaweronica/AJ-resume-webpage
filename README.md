@@ -1,10 +1,10 @@
 <!--<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;"> -->
 
-![image](/assets/images/backend-image.png)
-![Philadelphia's Magic Gardens. This place was so cool!](/assets/images/philly-magic-gardens.jpg "Philadelphia's Magic Gardens")
+![image](/assets/images/backend-image-md.png)
+##Resume webpage
 ## UX
 
-Target Audience
+###Target Audience
 - Potentail recruiter or employer looking for a full stack developer.
 - Potentail co-worker who looks for a exchagne of knowledge
 - Random person who may be interested of changing a career.
