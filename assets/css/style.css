@@ -381,27 +381,9 @@ iframe{
 
 @media screen and (min-width:0px) and (max-width: 320px){
     .navbar-toggler navbar-toggler-icon{margin-left: auto;}
-}
-
-@media screen and (min-width:0) and (max-width: 1024px){
-  .job-title-static h4{float: none; margin-bottom: 1rem; font-family: 'Press Start 2P'; font-size: 1rem;}
-  /* .typewriter h1{font-size: 0.6rem; margin-bottom: 15px; 
-  animation: 
-    typing 4s steps(30,end) 1s 1 normal both, 
-    blink-caret .75s steps(30,end) infinite;
-  animation-iteration-count: infinite;
-  letter-spacing: pre; Adjust as needed
-  border-right: .2em solid black; The typwriter cursor
-  height: 1rem;
-  white-space: pre; Keeps the content on a single line
-  margin-left: 0;
-  margin-right: 0;}
-
-@keyframes typing{
-  from { width: 0 }
-  to { width: 100% } */
-    }
-
+    .typewriter h1 {display: none;}
+    .job-title-static h4{float: none; margin-bottom: 1rem; font-family: 'Press Start 2P'; font-size: 1rem;}
+    .typewriter h1 {display: none;}
     .navbar-brand{font-size: 1.8rem; margin-left: 0.5rem; padding-left: 0.5rem;}
     .nav-item a{font-size: 0.8rem;}
     .btn-outline-secondary{font-size: 0.8rem;}
@@ -422,12 +404,13 @@ iframe{
     .list-inline li i{font-size: 1rem;}
     .contact-info p{font-size: 1rem;}
 }
+@media screen and (min-width:320) and (max-width: 1024px){
+    .job-title-static h4{float: none; margin-bottom: 1rem; font-family: 'Press Start 2P'; font-size: 1rem; color: red}
+    .typewriter h1 {display: none;}
+}
 
 /* @media screen and (min-width:0) and (max-width: 1024px){
-    .typewriter h1 {display: none;}
-
-@media screen and (min-width:0) and (max-width: 1024px){
-    .typewriter h2{position: relative; height: 2rem; font-family: 'Press Start 2P', cursive; color: red; font-size: 1.2rem;} */
+    .typewriter h2{position: relative; height: 2rem; font-family: 'Press Start 2P', cursive; color: red; font-size: 1.2rem;}  */
 
 /* @media screen and (min-width:1024px) and (max-width: 3840px){
     .tech-image{display: none;}

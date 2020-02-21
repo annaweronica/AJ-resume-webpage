@@ -1,31 +1,75 @@
-<!--<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;"> -->
-
 ![image](/assets/images/backend-image-md.png)
-##Resume webpage
-## UX
 
-###Target Audience
+Resume webpage
+UX
+
+Target Audience
 - Potentail recruiter or employer looking for a full stack developer.
 - Potentail co-worker who looks for a exchagne of knowledge
 - Random person who may be interested of changing a career.
 - Any person who is interested in technology and Agile framwroks, open for discussion.
 
-## Featuers 
+Featuers 
 
-- As a user, I want to learn what professional previous backgrad she has.
-- As a user, I want to learn who is Anna and what skills and competences does she have for programming role.
-- As a user, I want to see does she has experience and knowledge in Agile frameworks.
-- As a user, I want to has a posibility to contact Anna via phone, email or contact form.
-- As a user, I want to have a posibility of downloding CV in form of pdf.
+- As a recruiter or potential employer, I want to learn what professional previous background Anna has.
+- As a recruiter or potential employer, I want to learn who is Anna and what skills and competences she has for programming role.
+- As a recruiter or potential employer, I want to see what experience and knowledge she has in Agile frameworks.
+- As a recruiter or potential employer, I want to has a posibility to contact Anna via phone, email or contact form.
+- As a recruiter or potential employer, I want to have a posibility of downloding CV in pdf form.
 
-### Technologies
+Layout:
+Simple design in  white and black colors including images with exception for llighted colored google map n Contact sub-page.
+
+/link to all wireframes/
+
+Main page:
+
+At the top of the browser windows there is a menu with logo on the left size and three sub-pages: TECH, Agile and Contact.
+Under the menu the user can see main image which refers to my sex and programming interests so the user may assume that the page was created by a female. 
+Following underneath we have there colums of the text with descriptions of previous professional experience and simply styled button under each of the section redirecting the user to a previous employer website.
+
+/wireframe/
+
+TECH sub page:
+
+In this section the user can get fammilar with programming skills and certifications relating to previous IT experience.
+There are two columns with description of a Front End and Back End coding experience. By each column of the text there is the image.
+At the bottom of the section there is a progress skill bar. The procentage referts to overall confidance in certain coding language.
+
+/wireframe/
+
+Agile sub page:
+
+In this section the user can recognize the Anna has already short experience within IT as Scrum Master and proxy Product Owner in Agile Frameworks.
+There are two columns with text explaining what the role is about and what Anna had been working with. Underneath the each of the text column there are two buttons. One directs you to the official webpage of the Agile organization and the other button activets a model with a youtube video showing a hint relating to work and accordingly to the framework.
+Below there is progress competences bar showing how confident Anna feels about the knowledge and her experience working in particular agile framewrok.
+
+Contact sub page:
+
+The user has few posibilities to reach out to Anna:
+- via phone numer and/or e-mail adress which activets when pressing a button "Contact me!"
+- via conatct form which is available on the webpage under a heading "Drop me a message". The inputs of name and email are mandatory to fill.
+- via links to social media which are in footer section. When the user click the social media icon the social media webpage opens in next tab window.
+Next to the button "Contact me!" there is a button "CV.pdf" where from the user can open and potentially download Anna CV in pdf form. 
+There is also a google map with location of Anna's address.
+
+Technologies
 
 - HTML5
 - CSS/CSS3
+- JS ( a few simple functions)
+
+Frameworks:
+- Bootstrap
+
+External code sources:
+
+- [Typewriting effect for an eye catching job title](https://css-tricks.com/snippets/css/typewriter-effect/ "Typewrter effect")
+- [Navbar template with logo](https://startbootstrap.com/snippets/navbar-logo/ "Nvabar with logo")
+- [Template for a fixed footer with little content](https://stackoverflow.com/questions/16679146/force-footer-on-bottom-on-pages-with-little-content/16679198#16679198 "Fixed footer")
 
 
-
-###Testing
+Testing
 
 **HTML Validator**
 screen shot with date and result
@@ -34,85 +78,29 @@ screen shot with date and result
 screen shot with date and result
 
 **Manual Testing**
--Breakpoint 1920px
 
-The page has been tasted for following browsers: 
+Webpage and its responsiveness was tested on follwoing browsers:
+- Chrom
+- FireFox
+- Edge
+- Internet Explorer !please note: not supported -> image
+  (test failed on sub pages: TECH, Agile)
 
-#### Content
 
+Deployment
 
-### Credits
+The webpage is hosted on github: /github.com/annaweronica/AJ-resume-webpage with one master branch.
+All git commit and git push commends were made accordingly to work incremenation which saved my work in particullary one time when happened this: //link or image//.
 
-- 
+Credits
+
+- Content
+Created by Anna Janiak
+Copy right @ Anna Janiak
+
+- Media
+The source of all legally licensed images come from [Adobe Stock](https://stock.adobe.com/ie/)
 
 --------
 
 Enjoy!
-
-
-Your Project's Name
-One or two paragraphs providing an overview of your project.
-
-Essentially, this part is your sales pitch.
-
-
-UX
-Use this section to provide insight into your UX process, focusing on who this website is for, what it is that they want to achieve and how your project is the best way to help them achieve these things.
-
-In particular, as part of this section we recommend that you provide a list of User Stories, with the following general structure:
-
-As a user type, I want to perform an action, so that I can achieve a goal.
-This section is also where you would share links to any wireframes, mockups, diagrams etc. that you created as part of the design process. These files should themselves either be included as a pdf file in the project itself (in an separate directory), or just hosted elsewhere online and can be in any format that is viewable inside the browser.
-
-Features
-In this section, you should go over the different parts of your project, and describe each in a sentence or so.
-
-Existing Features
-Feature 1 - allows users X to achieve Y, by having them fill out Z
-...
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
-
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
-
-Features Left to Implement
-Another feature idea
-Technologies Used
-In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
-
-JQuery
-The project uses JQuery to simplify DOM manipulation.
-Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
-
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
-
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
-
-Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
-
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
-
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
-
-Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
-
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
-
-Credits
-Content
-The text for section Y was copied from the Wikipedia article Z
-Media
-The photos used in this site were obtained from ...
-Acknowledgements
-I received inspiration for this project from X
