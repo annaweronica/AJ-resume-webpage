@@ -12,59 +12,53 @@ Target audience for the **resume webpage** is a recruiter and/or potential emplo
 
 **Layout:**
 
-Minimalistic, simple design in  white and black style including images. 
-The only exception is for google map in Contact sub-page.
+Minimalistic, simple design in  white and black style including images. The only exception is for google map in Contact sub-page.
 
 - [Desktop view](/wireframes/Desktop-view.png)
 - [iPod view](/wireframes/iPod-view.png)
 - [Mobile view](/wireframes/Mobile-view.png)
 
 
->Main page:
->- At the top of the browser windows there is a menu with logo on the left size and three sub-pages: TECH, Agile and Contact.
->- Under the menu the user can see main image which refers to my sex and programming interests so the user may assume that the page was created by a female. 
->- Following underneath we have there colums of the text with descriptions of previous professional experience and simply styled button under each of the section redirecting the user to a previous employer website.
+***Main page:***
+At the top of the browser windows there is a menu with logo on the left size and three sub-pages: TECH, Agile and Contact.
+Under the menu the user can see main image which refers to my sex and programming interests so the user may assume that the page was created by a female. 
+Following underneath we have there colums of the text with descriptions of previous professional experience and simply styled button under each of the section redirecting the user to a previous employer website.
 
-- [Main page view](/wireframes/Main-page.png)
+- [Desktop landing sub-page view](/wireframes/Desktop-Landing-view.png)
+- [iPod landing page view](/wireframes/iPod-Landing-view.png)
+- [Mobile landing page view](/wireframes/Mobile-Landing-view.png)
 
-- TECH sub-page:
+***TECH sub-page:***
 
->In this section the user can get fammilar with programming skills and certifications relating to previous IT experience.
->There are two columns with description of a Front End and Back End coding experience. By each column of the text there is the image.
->At the bottom of the section there is a progress skill bar. The procentage referts to overall confidance in certain coding language.
+In this section the user can get fammilar with programming skills and certifications relating to previous IT experience.
+There are two columns with description of a Front End and Back End coding experience. By each column of the text there is the image.
+At the bottom of the section there is a progress skill bar. The procentage referts to overall confidance in certain coding language.
 
-/wireframe/
+- [Desktop TECH sub-page view](/wireframes/Desktop-TECH-view.png)
+- [iPod TECH sub-page view](/wireframes/iPod-TECH-view.png)
+- [Mobile TECH sub-page view](/wireframes/Mobile-TECH-view.png)
 
 - Agile sub page:
 
->In this section the user can recognize the Anna has already short experience within IT as Scrum Master and proxy Product Owner in Agile Frameworks.
->There are two columns wite and black style including images. The only exception is for google map in Contact sub-page.
+In this section the user can recognize the Anna has already short experience within IT as Scrum Master and proxy Product Owner in Agile Frameworks.
+There are two columns wite and black style including images. The only exception is for google map in Contact sub-page.
 
-[Desktop view](/wireframes/Desktop-view.png)
-[iPod view](/wireframes/iPod-view.png)
-[Mobile view](/wireframes/Mobile-view.png)
-
-
-- Main page:
-
->At the top of the browser windows there is a menu with logo on the left size and three sub-pages: TECH, Agile and Contact.
->Under the menu the user can see main image which refers to my sex and programming interests so the user may assume that the page was created by a female. 
->Following underneath we have there colums of the text with descriptions of previous professional experience and simply styled button under each of the section redirecting the user to a previous employer website.
-
-/wireframe/
-
-- TECH sub-page:h text explaining what the role is about and what Anna had been working with. Underneath the each of the text column there are two buttons. One directs you to the official webpage of the Agile organization and the other button activets a model with a youtube video showing a hint relating to work and accordingly to the framework.
->Below there is progress competences bar showing how confident Anna feels about the knowledge and her experience working in particular agile framewrok.
+- [Desktop Agile sub-page view](/wireframes/Desktop-Agile-view.png)
+- [iPod Agile sub-page view](/wireframes/iPod-Agile-view.png)
+- [Mobile Agile sub-page view](/wireframes/Mobile-Agile-view.png)
 
 - Contact sub page:
 
->The user has few posibilities to reach out to Anna:
->- via phone numer and/or e-mail adress which activets when pressing a button "Contact me!"
->- via conatct form which is available on the webpage under a heading "Drop me a message". The inputs of name and email are mandatory to fill.
->- via links to social media which are in footer section. When the user click the social media icon the social media webpage opens in next tab window.
->Next to the button "Contact me!" there is a button "CV.pdf" where from the user can open and potentially download Anna CV in pdf form. 
->There is also a google map with location of Anna's address.
+The user has few posibilities to reach out to Anna:
+- via phone numer and/or e-mail adress which activets when pressing a button "Contact me!"
+- via conatct form which is available on the webpage under a heading "Drop me a message". The inputs of name and email are mandatory to fill.
+- via links to social media which are in footer section. When the user click the social media icon the social media webpage opens in next tab window.
+Next to the button "Contact me!" there is a button "CV.pdf" where from the user can open and potentially download Anna CV in pdf form. 
+There is also a google map with location of Anna's address.
 
+- [Desktop Contact sub-page view](/wireframes/Desktop-Contact-view.png)
+- [iPod Contact sub-page view](/wireframes/iPod-Contact-view.png)
+- [Mobile Contact sub-page view](/wireframes/Mobile-Contact-view.png)
 
 ##Featuers 
 
