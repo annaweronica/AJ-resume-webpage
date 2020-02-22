@@ -265,21 +265,21 @@ a.navbar-brand:hover{
   padding: 0 10px 0 10px;
   letter-spacing: .10em; /* Adjust as needed */
   animation: 
-    typing 12s steps(30,end) 1s 1 normal both, 
-    blink-caret .75s steps(30,end) infinite;
+    typing 7s steps(30,end) .75s 1 normal both, 
+    blink-caret .75s steps(60,end) infinite;
   animation-iteration-count: infinite;
 }
 
-.typewriter h2{
+/* .typewriter h2{
     font-size: 1rem;
     font-family: 'Press Start 2P', cursive;
     color: red;
-}
+} */
 
 /* The typing effect */
 @keyframes typing{
   from { width: 0 }
-  to { width: 55% }
+  to { width: 70% }
 }
 
 /* @keyframes typing{
@@ -379,7 +379,7 @@ iframe{
 
 /*-------------------------------------------------------------------MEDIA QUERIES*/
 
-@media screen and (min-width:0px) and (max-width: 320px){
+@media screen and (min-width:0px) and (max-width: 992px){
     .navbar-toggler navbar-toggler-icon{margin-left: auto;}
     .typewriter h1 {display: none;}
     .job-title-static h4{float: none; margin-bottom: 1rem; font-family: 'Press Start 2P'; font-size: 1rem;}
@@ -405,7 +405,7 @@ iframe{
     .contact-info p{font-size: 1rem;}
 }
 @media screen and (min-width:320) and (max-width: 1024px){
-    .job-title-static h4{float: none; margin-bottom: 1rem; font-family: 'Press Start 2P'; font-size: 1rem; color: red}
+    .job-title-static h4{float: none; margin-bottom: 1rem; font-family: 'Press Start 2P'; font-size: 1rem;}
     .typewriter h1 {display: none;}
 }
 
