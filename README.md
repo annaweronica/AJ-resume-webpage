@@ -2,13 +2,18 @@
 
 #Resume webpage
 
----
+Aim of the **resume webpage** is to find a programming job within IT. 
 
-#UX
+##UX
+
+---
 
 Target Audience for the **resume webpage** is a recruiter and/or potential employer looking for a full stack developer.
 
-#Featuers 
+##Featuers 
+
+---
+
 -
 -
 -
@@ -59,7 +64,9 @@ Layout:
 >Next to the button "Contact me!" there is a button "CV.pdf" where from the user can open and potentially download Anna CV in pdf form. 
 >There is also a google map with location of Anna's address.
 
-#Technologies
+##Technologies
+
+---
 
 - HTML5
 - CSS/CSS3
@@ -96,7 +103,9 @@ External code sources which helped to solve issues:
 - Issue: still palying the youtube video in the background when the model was closed [stackoverflow.com](https://stackoverflow.com/questions/13598423/stop-all-playing-iframe-videos-on-click-a-link-javascript)
 - Issue: [stackoverflow.com](https://stackoverflow.com/questions/9288482/how-do-i-set-the-offset-for-scrollspy-in-bootstrap/12606867#12606867)
 
-#Testing
+##Testing
+
+---
 
 **HTML Validator**
 
@@ -117,12 +126,17 @@ Webpage and its responsiveness was tested on follwoing browsers:
   (test failed on sub pages: TECH, Agile)
 
 
-#Deployment
+##Deployment
+
+---
 
 The webpage is hosted on github: /github.com/annaweronica/AJ-resume-webpage with one master branch.
 All git commit and git push commends were made accordingly to work incremenation which saved my work in particullary one time when happened this: //link or image//.
 
-#Credits
+##Credits
+
+---
+
 
 - Content
 Created by Anna Janiak
