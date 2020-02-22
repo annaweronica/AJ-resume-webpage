@@ -1,8 +1,10 @@
 ![image](/assets/images/backend-image-md.png)
 
+
 #Resume webpage
 
 Aim of the **resume webpage** is to represent skills and competences which will lead me to get a programming job within IT. 
+
 
 ##UX
 
@@ -20,6 +22,7 @@ Minimalistic, simple design in  white and black style including images. The only
 
 
 ***Main page:***
+
 At the top of the browser windows there is a menu with logo on the left size and three sub-pages: TECH, Agile and Contact.
 Under the menu the user can see main image which refers to my sex and programming interests so the user may assume that the page was created by a female. 
 Following underneath we have there colums of the text with descriptions of previous professional experience and simply styled button under each of the section redirecting the user to a previous employer website.
@@ -38,7 +41,7 @@ At the bottom of the section there is a progress skill bar. The procentage refer
 - [iPod TECH sub-page view](/wireframes/iPod-TECH-view.png)
 - [Mobile TECH sub-page view](/wireframes/Mobile-TECH-view.png)
 
-- Agile sub page:
+***Agile sub-page:***
 
 In this section the user can recognize the Anna has already short experience within IT as Scrum Master and proxy Product Owner in Agile Frameworks.
 There are two columns wite and black style including images. The only exception is for google map in Contact sub-page.
@@ -47,25 +50,27 @@ There are two columns wite and black style including images. The only exception 
 - [iPod Agile sub-page view](/wireframes/iPod-Agile-view.png)
 - [Mobile Agile sub-page view](/wireframes/Mobile-Agile-view.png)
 
-- Contact sub page:
+***Contact sub page:***
 
-The user has few posibilities to reach out to Anna:
-- via phone numer and/or e-mail adress which activets when pressing a button "Contact me!"
-- via conatct form which is available on the webpage under a heading "Drop me a message". The inputs of name and email are mandatory to fill.
-- via links to social media which are in footer section. When the user click the social media icon the social media webpage opens in next tab window.
-Next to the button "Contact me!" there is a button "CV.pdf" where from the user can open and potentially download Anna CV in pdf form. 
+The user has few posibilities to reach out to Anna:<br>
+  1. via phone numer and/or e-mail adress which activets when pressing a button "Contact me!"<br>
+  2.  via conatct form which is available on the webpage under a heading "Drop me a message". The inputs of name and email are mandatory to fill.<br>
+  3.  via links to social media which are in footer section. When the user click the social media icon the social media webpage opens in next tab window.<br>
+
+Next to the button "Contact me!" there is a button "CV.pdf" from where the user can open and potentially download Anna CV in pdf form. 
 There is also a google map with location of Anna's address.
 
 - [Desktop Contact sub-page view](/wireframes/Desktop-Contact-view.png)
 - [iPod Contact sub-page view](/wireframes/iPod-Contact-view.png)
 - [Mobile Contact sub-page view](/wireframes/Mobile-Contact-view.png)
 
+
 ##Featuers 
 
 ---
 
-**Header**
->
+Header
+
 
 -
 -
@@ -118,6 +123,7 @@ External code sources which helped to solve issues:
 - Issue: still palying the youtube video in the background when the model was closed [stackoverflow.com](https://stackoverflow.com/questions/13598423/stop-all-playing-iframe-videos-on-click-a-link-javascript)
 - Issue: [stackoverflow.com](https://stackoverflow.com/questions/9288482/how-do-i-set-the-offset-for-scrollspy-in-bootstrap/12606867#12606867)
 
+
 ##Testing
 
 ---
@@ -148,20 +154,22 @@ Webpage and its responsiveness was tested on follwoing browsers:
 The webpage is hosted on github: /github.com/annaweronica/AJ-resume-webpage with one master branch.
 All git commit and git push commends were made accordingly to work incremenation which saved my work in particullary one time when happened this: //link or image//.
 
+
 ##Credits
 
 ---
 
+***Content***
 
-- Content
-Created by Anna Janiak
+Created by Anna Janiak<br>
 Copy right @ Anna Janiak
 
-- Exceptions
+Exceptions:
 >- The text in SCRUM & KANBAN was copied from official SCRUM website [scrum.org](https://www.scrum.org/resources/what-is-a-scrum-master) 
 >- The text in SAFe was copied from official SAFe website [scaledagileframework.com](https://www.scaledagileframework.com/product-owner/)
 
-- Media
+***Media***
+
 The source of all legally licensed images come from [Adobe Stock](https://stock.adobe.com/ie/)
 
 --------
