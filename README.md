@@ -20,11 +20,8 @@ Featuers
 Layout:
 - Minimalistic, simple, clean design in  white and black style including images. The only exception is for google map in Contact sub-page.
 
-[Desktop view](/assets/wireframes/Desktop.pdf)
-[iPod view](/assets/wireframesiPod.pdf)
-[Mobile view](/assets/wireframes/Mobile)
-
-/link to all wireframes/
+![Desktop view](/wireframes/Desktop.pdf)
+![iPod view](/wireframes/iPod.pdf)![Mobile view](/wireframes/Mobile.pdf)
 
 Main page:
 
@@ -66,12 +63,19 @@ Technologies
 Frameworks:
 - Bootstrap
 
-External code sources:
+External code sources implemented and modified:
 
 - [Typewriting effect for an eye catching job title](https://css-tricks.com/snippets/css/typewriter-effect/ "Typewrter effect")
 - [Navbar template with logo](https://startbootstrap.com/snippets/navbar-logo/ "Nvabar with logo")
 - [Template for a fixed footer with little content](https://stackoverflow.com/questions/16679146/force-footer-on-bottom-on-pages-with-little-content/16679198#16679198 "Fixed footer")
+- [Responsive goole map for a Conatc sub-page](https://bootsnipp.com/snippets/or0ZB)
+- [Simple contact form](https://codepen.io/formbucket/pen/xEKYoX)
+- [Animated Skills Bar which I finally removed - not match to the webpage style](http://cssdeck.com/labs/animated-responsive-skills-bar)
+- [Minimalistic Skills Bar](https://codepen.io/robinselmer/pen/RarLQK)
 
+External code sources which helped to solve issues:
+
+- []()
 
 Testing
 
