@@ -1,10 +1,12 @@
 ![image](/assets/images/backend-image-md.png)
 
 #Resume webpage
+
+---
+
 #UX
 
-Target Audience
-- Potentail recruiter or employer looking for a full stack developer.
+Target Audience for the **resume webpage** is a recruiter and/or potential employer looking for a full stack developer.
 
 #Featuers 
 -
@@ -91,15 +93,14 @@ External code sources implemented and modified:
 
 External code sources which helped to solve issues:
 
-- [Issue: still palying the youtube video in the background when the model was closed](https://stackoverflow.com/questions/13598423/stop-all-playing-iframe-videos-on-click-a-link-javascript)
-- [Issue:](https://stackoverflow.com/questions/9288482/how-do-i-set-the-offset-for-scrollspy-in-bootstrap/12606867#12606867)
+- Issue: still palying the youtube video in the background when the model was closed [stackoverflow.com](https://stackoverflow.com/questions/13598423/stop-all-playing-iframe-videos-on-click-a-link-javascript)
+- Issue: [stackoverflow.com](https://stackoverflow.com/questions/9288482/how-do-i-set-the-offset-for-scrollspy-in-bootstrap/12606867#12606867)
 
 #Testing
 
 **HTML Validator**
 
-[validator.w3.org](https://validator.w3.org/#validate_by_input)
-![image](/wireframes/index.html.png)
+![validator.w3.org](/wireframes/index.html.png)
 
 **CSS Validator**
 
