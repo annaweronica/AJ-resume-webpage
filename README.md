@@ -1,12 +1,12 @@
 ![image](/assets/images/backend-image-md.png)
 
 #Resume webpage
-UX
+#UX
 
 Target Audience
 - Potentail recruiter or employer looking for a full stack developer.
 
-Featuers 
+#Featuers 
 -
 -
 -
@@ -23,10 +23,10 @@ USER STORIES
 Layout:
 - Minimalistic, simple design in  white and black style including images. The only exception is for google map in Contact sub-page.
 
-![](/wireframes/Desktop.pdf)
+![png](/wireframes/Desktop.pdf)
 
 
-Main page:
+- Main page:
 
 >At the top of the browser windows there is a menu with logo on the left size and three sub-pages: TECH, Agile and Contact.
 >Under the menu the user can see main image which refers to my sex and programming interests so the user may assume that the page was created by a female. 
@@ -34,7 +34,7 @@ Main page:
 
 /wireframe/
 
-TECH sub page:
+- TECH sub page:
 
 >In this section the user can get fammilar with programming skills and certifications relating to previous IT experience.
 >There are two columns with description of a Front End and Back End coding experience. By each column of the text there is the image.
@@ -42,13 +42,13 @@ TECH sub page:
 
 /wireframe/
 
-Agile sub page:
+- Agile sub page:
 
 >In this section the user can recognize the Anna has already short experience within IT as Scrum Master and proxy Product Owner in Agile Frameworks.
 >There are two columns with text explaining what the role is about and what Anna had been working with. Underneath the each of the text column there are two buttons. One directs you to the official webpage of the Agile organization and the other button activets a model with a youtube video showing a hint relating to work and accordingly to the framework.
 >Below there is progress competences bar showing how confident Anna feels about the knowledge and her experience working in particular agile framewrok.
 
-Contact sub page:
+- Contact sub page:
 
 >The user has few posibilities to reach out to Anna:
 >- via phone numer and/or e-mail adress which activets when pressing a button "Contact me!"
@@ -57,7 +57,7 @@ Contact sub page:
 >Next to the button "Contact me!" there is a button "CV.pdf" where from the user can open and potentially download Anna CV in pdf form. 
 >There is also a google map with location of Anna's address.
 
-Technologies
+#Technologies
 
 - HTML5
 - CSS/CSS3
@@ -65,6 +65,19 @@ Technologies
 
 Frameworks:
 - Bootstrap
+
+External sources imported to the project:
+- [BootstrapCDN]()
+- [jQuery]()
+- [popper.js]()
+- [Google fonts]()
+- [Font awesome]()
+
+Knowledgeable resources which supported me during my work:
+
+- [www3school](https://www.w3schools.com/default.asp)
+- [Code Institute lerning materials]()
+- [stackoverflow](https://stackoverflow.com/)
 
 External code sources implemented and modified:
 
@@ -79,14 +92,18 @@ External code sources implemented and modified:
 External code sources which helped to solve issues:
 
 - [Issue: still palying the youtube video in the background when the model was closed](https://stackoverflow.com/questions/13598423/stop-all-playing-iframe-videos-on-click-a-link-javascript)
-- []()
+- [Issue:](https://stackoverflow.com/questions/9288482/how-do-i-set-the-offset-for-scrollspy-in-bootstrap/12606867#12606867)
 
-Testing
+#Testing
 
 **HTML Validator**
-screen shot with date and result
+
+[validator.w3.org](https://validator.w3.org/#validate_by_input)
+![image](/wireframes/index.html.png)
 
 **CSS Validator**
+
+[jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/)
 screen shot with date and result
 
 **Manual Testing**
@@ -99,16 +116,20 @@ Webpage and its responsiveness was tested on follwoing browsers:
   (test failed on sub pages: TECH, Agile)
 
 
-Deployment
+#Deployment
 
 The webpage is hosted on github: /github.com/annaweronica/AJ-resume-webpage with one master branch.
 All git commit and git push commends were made accordingly to work incremenation which saved my work in particullary one time when happened this: //link or image//.
 
-Credits
+#Credits
 
 - Content
 Created by Anna Janiak
 Copy right @ Anna Janiak
+
+- Exceptions
+>- The text in SCRUM & KANBAN was copied from official SCRUM website [scrum.org](https://www.scrum.org/resources/what-is-a-scrum-master) 
+>- The text in SAFe was copied from official SAFe website [scaledagileframework.com](https://www.scaledagileframework.com/product-owner/)
 
 - Media
 The source of all legally licensed images come from [Adobe Stock](https://stock.adobe.com/ie/)
