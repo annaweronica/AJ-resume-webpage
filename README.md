@@ -5,9 +5,9 @@ UX
 
 Target Audience
 - Potentail recruiter or employer looking for a full stack developer.
-- Potentail co-worker who looks for a exchagne of knowledge
+- Potentail co-worker who looks for a exchagne of knowledge.
 - Random person who may be interested of changing a career.
-- Any person who is interested in technology and Agile framwroks, open for discussion.
+- Any person who is interested in technology and Agile framewroks open for discussion.
 
 Featuers 
 
@@ -18,7 +18,9 @@ Featuers
 - As a recruiter or potential employer, I want to have a posibility of downloding CV in pdf form.
 
 Layout:
-Simple design in  white and black colors including images with exception for llighted colored google map n Contact sub-page.
+- Minimalistic, simple, clean design in  white and black style including images. The only exception is for google map in Contact sub-page.
+
+![Desktop view](/assets/wireframes/Desktop.pdf)![iPod view](/assets/wireframesiPod.pdf)![Mobile view](/assets/wireframes/Mobile)
 
 /link to all wireframes/
 
