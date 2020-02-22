@@ -20,8 +20,9 @@ Featuers
 Layout:
 - Minimalistic, simple, clean design in  white and black style including images. The only exception is for google map in Contact sub-page.
 
-![Desktop view](/wireframes/Desktop.pdf)
-![iPod view](/wireframes/iPod.pdf)![Mobile view](/wireframes/Mobile.pdf)
+[Desktop view](/wireframes/Desktop.pdf)
+[iPod view](/wireframes/iPod.pdf)
+[Mobile view](/wireframes/Mobile.pdf)
 
 Main page:
 
