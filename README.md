@@ -5,11 +5,14 @@ UX
 
 Target Audience
 - Potentail recruiter or employer looking for a full stack developer.
-- Potentail co-worker who looks for a exchagne of knowledge.
-- Random person who may be interested of changing a career.
-- Any person who is interested in technology and Agile framewroks open for discussion.
 
 Featuers 
+-
+-
+-
+-
+
+USER STORIES
 
 - As a recruiter or potential employer, I want to learn what professional previous background Anna has.
 - As a recruiter or potential employer, I want to learn who is Anna and what skills and competences she has for programming role.
@@ -18,11 +21,10 @@ Featuers
 - As a recruiter or potential employer, I want to have a posibility of downloding CV in pdf form.
 
 Layout:
-- Minimalistic, simple, clean design in  white and black style including images. The only exception is for google map in Contact sub-page.
+- Minimalistic, simple design in  white and black style including images. The only exception is for google map in Contact sub-page.
 
-[Desktop view](/wireframes/Desktop.pdf)
-[iPod view](/wireframes/iPod.pdf)
-[Mobile view](/wireframes/Mobile.pdf)
+![pdf](/wireframes/Desktop.pdf)
+
 
 Main page:
 
@@ -72,10 +74,11 @@ External code sources implemented and modified:
 - [Responsive goole map for a Conatc sub-page](https://bootsnipp.com/snippets/or0ZB)
 - [Simple contact form](https://codepen.io/formbucket/pen/xEKYoX)
 - [Animated Skills Bar which I finally removed - not match to the webpage style](http://cssdeck.com/labs/animated-responsive-skills-bar)
-- [Minimalistic Skills Bar](https://codepen.io/robinselmer/pen/RarLQK)
+- [Static but minimalistic Skills Bar applied instead](https://codepen.io/robinselmer/pen/RarLQK)
 
 External code sources which helped to solve issues:
 
+- [Issue: still palying the youtube video in the background when the model was closed](https://stackoverflow.com/questions/13598423/stop-all-playing-iframe-videos-on-click-a-link-javascript)
 - []()
 
 Testing
