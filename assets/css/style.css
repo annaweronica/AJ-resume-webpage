@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Zeyada|Press+Start+2P&display=swap:100,200,300,400,500,600,700');
 
-/* div{
-    border: solid 1px black;
-}   */
-
 html, body {
   height: 100%;
 }
@@ -155,10 +151,6 @@ a.navbar-brand:hover{
     padding: 1.5rem;
 }
 
-/* .card-text{
-    text-align: none;
-} */
-
 .card{
     border: none;
 }
@@ -234,7 +226,6 @@ a.navbar-brand:hover{
 
 .skill-bar-percent {
   float: right;
-  display: inline-block;
   color: #303030;
   font-size: 11px;
   font-weight: 600;
@@ -248,50 +239,29 @@ a.navbar-brand:hover{
 }
 
 .typewriter h1{
-  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  overflow: hidden; 
   position: relative;
   height: 2rem;
   font-family: 'Press Start 2P', cursive;
   font-size: 1.2rem;
-  border-right: .15em solid black; /* The typwriter cursor */
-  white-space: nowrap; /* Keeps the content on a single line */
-  /* margin: 0 auto; Gives that scrolling effect as the typing happens */
+  border-right: .15em solid black; 
+  white-space: nowrap; 
   padding-top: 10vh;
-  /* margin-top: 2vh; */
-  /* padding-bottom: 10vh;
-  margin-bottom: 12vh; */
   margin-left: auto;
   margin-right: auto;
   padding: 0 10px 0 10px;
-  letter-spacing: .10em; /* Adjust as needed */
+  letter-spacing: .10em;
   animation: 
     typing 7s steps(30,end) .75s 1 normal both, 
     blink-caret .75s steps(60,end) infinite;
   animation-iteration-count: infinite;
 }
 
-/* .typewriter h2{
-    font-size: 1rem;
-    font-family: 'Press Start 2P', cursive;
-    color: red;
-} */
-
 /* The typing effect */
 @keyframes typing{
   from { width: 0 }
   to { width: 70% }
 }
-
-/* @keyframes typing{
-  from { width: 0 }
-  to { width: 55% }
-} */
-
-/* The typewriter cursor effect
-@keyframes blink-caret{
-  from, to { border-color: transparent}
-  50% { border-color: orange;}
-} */
 
 @keyframes blink-caret{
     from, to { border-color: transparent}
@@ -330,6 +300,7 @@ a.navbar-brand:hover{
 .contact-info-button{
     color: black;
 }
+
 /*-------------------------------------------------------------------IFRAMES*/
 
 iframe{
@@ -404,37 +375,16 @@ iframe{
     .list-inline li i{font-size: 1rem;}
     .contact-info p{font-size: 1rem;}
 }
-@media screen and (min-width:320) and (max-width: 1024px){
+@media screen and (min-width:320px) and (max-width: 1024px){
     .job-title-static h4{float: none; margin-bottom: 1rem; font-family: 'Press Start 2P'; font-size: 1rem;}
     .typewriter h1 {display: none;}
 }
 
-/* @media screen and (min-width:0) and (max-width: 1024px){
-    .typewriter h2{position: relative; height: 2rem; font-family: 'Press Start 2P', cursive; color: red; font-size: 1.2rem;}  */
-
-/* @media screen and (min-width:1024px) and (max-width: 3840px){
-    .tech-image{display: none;}
+@media screen and (min-width:1024px) and (max-width: 3840px){
     .navbar-brand{font-size: 2rem; margin-left: 0.8rem; padding-left: 0.7rem;}
-    .typewriter{float: none; margin: 0 auto;}
-    .typewriter h1{font-size: 0.8rem; margin-bottom: 15px; 
-  animation: 
-    typing 6s steps(30,end) 1s 1 normal both, 
-    blink-caret .75s steps(30,end) infinite;
-  animation-iteration-count: infinite;
-  letter-spacing: pre; Adjust as needed
-  border-right: .2em solid black; The typwriter cursor
-  height: 1rem;
-  white-space: pre; Keeps the content on a single line
-  margin-left: auto;
-  margin-right: 0;}
+}
 
-@keyframes typing{
-  from { width: 0 }
-  to { width: 100% }
-    }
-} */
-
- @media screen and (min-width: 0px) and (max-width: 568px){
+ @media screen and (min-width: 0) and (max-width: 568px){
     .navbar-brand { display: none; }
     .copy-right{ display: none; }
     .navbar-toggler-icon{margin-left: auto;}
@@ -451,6 +401,7 @@ iframe{
     .navbar-nav{ margin-right: auto;}
     .card-wrapper-tech{margin-top:2.5rem;}
 }
+
  @media screen and (min-width: 768px)and (max-width:1024px){
     .navbar-brand{font-size: 2.5rem; margin-left: 0.8rem; padding-left: 0.7rem;}
     .nav-item-home{display: none}
