@@ -23,39 +23,39 @@ USER STORIES
 Layout:
 - Minimalistic, simple design in  white and black style including images. The only exception is for google map in Contact sub-page.
 
-![pdf](/wireframes/Desktop.pdf)
+![](/wireframes/Desktop.pdf)
 
 
 Main page:
 
-At the top of the browser windows there is a menu with logo on the left size and three sub-pages: TECH, Agile and Contact.
-Under the menu the user can see main image which refers to my sex and programming interests so the user may assume that the page was created by a female. 
-Following underneath we have there colums of the text with descriptions of previous professional experience and simply styled button under each of the section redirecting the user to a previous employer website.
+>At the top of the browser windows there is a menu with logo on the left size and three sub-pages: TECH, Agile and Contact.
+>Under the menu the user can see main image which refers to my sex and programming interests so the user may assume that the page was created by a female. 
+>Following underneath we have there colums of the text with descriptions of previous professional experience and simply styled button under each of the section redirecting the user to a previous employer website.
 
 /wireframe/
 
 TECH sub page:
 
-In this section the user can get fammilar with programming skills and certifications relating to previous IT experience.
-There are two columns with description of a Front End and Back End coding experience. By each column of the text there is the image.
-At the bottom of the section there is a progress skill bar. The procentage referts to overall confidance in certain coding language.
+>In this section the user can get fammilar with programming skills and certifications relating to previous IT experience.
+>There are two columns with description of a Front End and Back End coding experience. By each column of the text there is the image.
+>At the bottom of the section there is a progress skill bar. The procentage referts to overall confidance in certain coding language.
 
 /wireframe/
 
 Agile sub page:
 
-In this section the user can recognize the Anna has already short experience within IT as Scrum Master and proxy Product Owner in Agile Frameworks.
-There are two columns with text explaining what the role is about and what Anna had been working with. Underneath the each of the text column there are two buttons. One directs you to the official webpage of the Agile organization and the other button activets a model with a youtube video showing a hint relating to work and accordingly to the framework.
-Below there is progress competences bar showing how confident Anna feels about the knowledge and her experience working in particular agile framewrok.
+>In this section the user can recognize the Anna has already short experience within IT as Scrum Master and proxy Product Owner in Agile Frameworks.
+>There are two columns with text explaining what the role is about and what Anna had been working with. Underneath the each of the text column there are two buttons. One directs you to the official webpage of the Agile organization and the other button activets a model with a youtube video showing a hint relating to work and accordingly to the framework.
+>Below there is progress competences bar showing how confident Anna feels about the knowledge and her experience working in particular agile framewrok.
 
 Contact sub page:
 
-The user has few posibilities to reach out to Anna:
-- via phone numer and/or e-mail adress which activets when pressing a button "Contact me!"
-- via conatct form which is available on the webpage under a heading "Drop me a message". The inputs of name and email are mandatory to fill.
-- via links to social media which are in footer section. When the user click the social media icon the social media webpage opens in next tab window.
-Next to the button "Contact me!" there is a button "CV.pdf" where from the user can open and potentially download Anna CV in pdf form. 
-There is also a google map with location of Anna's address.
+>The user has few posibilities to reach out to Anna:
+>- via phone numer and/or e-mail adress which activets when pressing a button "Contact me!"
+>- via conatct form which is available on the webpage under a heading "Drop me a message". The inputs of name and email are mandatory to fill.
+>- via links to social media which are in footer section. When the user click the social media icon the social media webpage opens in next tab window.
+>Next to the button "Contact me!" there is a button "CV.pdf" where from the user can open and potentially download Anna CV in pdf form. 
+>There is also a google map with location of Anna's address.
 
 Technologies
 
