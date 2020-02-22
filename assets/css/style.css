@@ -350,7 +350,7 @@ iframe{
 
 /*-------------------------------------------------------------------MEDIA QUERIES*/
 
-@media screen and (min-width:0px) and (max-width: 320px){
+@media screen and (min-width:0px) and (max-width: 319px){
     .navbar-brand {display: none;}
 }
 
@@ -379,7 +379,7 @@ iframe{
     .list-inline li i{font-size: 1rem;}
     .contact-info p{font-size: 1rem;}
 }
-@media screen and (min-width:320px) and (max-width: 1024px){
+@media screen and (min-width:321px) and (max-width: 1024px){
     .navbar-brand { font-size: 2rem; margin-left: 0.5rem; padding-left: 0.3rem;}
     .job-title-static h4{float: none; margin-bottom: 1rem; font-family: 'Press Start 2P'; font-size: 1rem;}
     .typewriter h1 {display: none;}

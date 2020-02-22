@@ -2,7 +2,7 @@
 
 #Resume webpage
 
-Aim of the **resume webpage** is to find a programming job within IT. 
+Aim of the **resume webpage** is to represent skills and competences which will lead me to get a programming job within IT. 
 
 ##UX
 
@@ -12,20 +12,20 @@ Target audience for the **resume webpage** is a recruiter and/or potential emplo
 
 **Layout:**
 
-Minimalistic, simple design in  white and black style including images. The only exception is for google map in Contact sub-page.
+Minimalistic, simple design in  white and black style including images. 
+The only exception is for google map in Contact sub-page.
 
-[Desktop view](/wireframes/Desktop-view.png)
-[iPod view](/wireframes/iPod-view.png)
-[Mobile view](/wireframes/Mobile-view.png)
+- [Desktop view](/wireframes/Desktop-view.png)
+- [iPod view](/wireframes/iPod-view.png)
+- [Mobile view](/wireframes/Mobile-view.png)
 
 
-- Main page:
+>Main page:
+>- At the top of the browser windows there is a menu with logo on the left size and three sub-pages: TECH, Agile and Contact.
+>- Under the menu the user can see main image which refers to my sex and programming interests so the user may assume that the page was created by a female. 
+>- Following underneath we have there colums of the text with descriptions of previous professional experience and simply styled button under each of the section redirecting the user to a previous employer website.
 
->At the top of the browser windows there is a menu with logo on the left size and three sub-pages: TECH, Agile and Contact.
->Under the menu the user can see main image which refers to my sex and programming interests so the user may assume that the page was created by a female. 
->Following underneath we have there colums of the text with descriptions of previous professional experience and simply styled button under each of the section redirecting the user to a previous employer website.
-
-/wireframe/
+- [Main page view](/wireframes/Main-page.png)
 
 - TECH sub-page:
 
