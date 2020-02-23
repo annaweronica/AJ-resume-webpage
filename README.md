@@ -10,8 +10,6 @@ Aim of the **resume webpage** is to represent skills and competences which will 
 
 ## UX
 
----
-
 Target audience for the **resume webpage** is a recruiter and/or potential employer looking for a full stack developer.
 
 **Layout:**
@@ -66,9 +64,7 @@ There is also a google map with location of Anna's address.
 - [Mobile Contact sub-page view](/wireframes/Mobile-Contact-view.png)
 
 
-### Featuers 
-
----
+## Featuers 
 
 Header
 
@@ -85,9 +81,7 @@ USER STORIES
 - As a recruiter or potential employer, I want to have a posibility of downloding CV in pdf form.
 
 
-### Technologies
-
----
+## Technologies
 
 - HTML5
 - CSS/CSS3
@@ -97,17 +91,17 @@ Frameworks:
 - Bootstrap
 
 External sources imported to the project:
-- [BootstrapCDN]()
-- [jQuery]()
-- [popper.js]()
-- [Google fonts]()
-- [Font awesome]()
+- [BootstrapCDN](https://www.bootstrapcdn.com/)
+- [jQuery](https://jquery.com/)
+- [popper.js](https://popper.js.org/)
+- [Google fonts](https://fonts.google.com/)
+- [Font awesome](https://fontawesome.com/)
 
 Knowledgeable resources which supported me during my work:
 
 - [www3school](https://www.w3schools.com/default.asp)
-- [Code Institute lerning materials]()
 - [stackoverflow](https://stackoverflow.com/)
+- [Code Institute lerning materials](https://courses.codeinstitute.net/program/FullstackWebDeveloper)
 
 External code sources implemented and modified:
 
@@ -125,18 +119,19 @@ External code sources which helped to solve issues:
 - Issue: [stackoverflow.com](https://stackoverflow.com/questions/9288482/how-do-i-set-the-offset-for-scrollspy-in-bootstrap/12606867#12606867)
 
 
-#### Testing
+### Testing
 
 ---
 
 **HTML Validator**
 
-![validator.w3.org](/wireframes/index.html.png)
+- [validator.w3.org](/wireframes/index.html.png)
+- [No errors or warnings to show.](/wireframes/HTML-validated.png)
 
 **CSS Validator**
 
-[jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/)
-screen shot with date and result
+- [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/)
+- [No Error Found.](/wireframesCSS-validated.png)
 
 **Manual Testing**
 
