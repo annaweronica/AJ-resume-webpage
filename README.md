@@ -25,11 +25,13 @@ Minimalistic, simple design in  white and black style including images.
 ***Main page:***
 
 At the top of the browser windows there is a menu with logo on the left size and three sub-pages: TECH, Agile and Contact.
-Under the menu the user can see main image with female touch. Following underneath we have there colums of the text with descriptions of previous professional experience and simply styled button under each of the section redirecting the user to a previous employer website.
+Under the menu the user can see main image with female touch. Following underneath we have there colums of the text with descriptions of previous professional experience and simply styled button under each of the section redirecting the user to a previous employer website.<br>
 
-- [Desktop landing sub-page view](/wireframes/Desktop-Landing-view.png)
-- [iPod landing sub-page view](/wireframes/iPod-Landing-view.png)
-- [Mobile landing sub-page view](/wireframes/Mobile-Landing-view.png)
+> Please note: main page and landing page refers to home page. The names may be used interchangeably.
+
+- [Desktop main page view](/wireframes/Desktop-Landing-view.png)
+- [iPod main page view](/wireframes/iPod-Landing-view.png)
+- [Mobile main page view](/wireframes/Mobile-Landing-view.png)
 
 ***TECH sub-page:***
 
@@ -52,7 +54,7 @@ There are two columns white and black style including images. The only exception
 
 ***Contact sub-page:***
 
-The user has few posibilities to reach out to me:<br>
+The user has few posibilities to reach out to Anna:<br>
   1. via phone numer and/or e-mail adress which activets a model when pressing a button "Contact me!"<br>
   2. via Conatct Form which is available on the page under a heading "Drop me a message". The inputs of name and email are mandatory to fill up otherwise the toolip will pop up requires the recruiter to do so.<br>
   3. via links to social media which are in footer section. When the user click the social media icon the social media webpage opens in next tab window.<br>
@@ -67,7 +69,8 @@ There is also a google map with location of Anna's address.
 
 ## Featuers 
 
-This is one page website with three sub-pages once the user [scroll down](https://getbootstrap.com/docs/4.3/components/scrollspy/) he will go throught all the sub-pages without need clicking on items in menu.
+This is one page website with three sub-pages once the user [scroll down](https://getbootstrap.com/docs/4.3/components/scrollspy/) he will go throught all the sub-pages without need clicking on items in menu.<br>
+When the user scrolls down the items of menu actives with white hover letting the user know on which page he is.
 
 **Main page**
 
@@ -186,22 +189,39 @@ Webpage and its responsiveness was tested on follwoing browsers:
 - Internet Explorer<br>
 [Exception: the webpage is not supported on Internet Explorer](/wireframes/Internet-explorer-error.png)
 
-Most common path through the website:
-
-1. On desktop and iPod:
-
-Main page > Tech > Agile > > Contact
-Each of these pages leads the recruiter scrolling down through next page to Contact page and the footer at the bottom with also posibility of contact. In some places the recruiter may wanto to be back to another page and he can easily do it clicking on one of the sub-page name on the manu. 
-Clicking on TECH will lead him back to the TECH sub-page. 
-Clicking on Agile sub-page will lead him back to the Agile.
-Clicking on Contact sub-page will lead him back to the Contact. 
-Clicking on logo >Anna Janiak< in menu will lead him back to the main page.
-
-2. On mobile devices the path happens as follows but the menu collapses into a burger. Once cklicking on the burger it will lead the recruiter to the items of the menu and the order happens as the steps above. There is one more menu sub-page to be back to the main page on mobile devices: *Home* re-directing you to the main page. You can still be back to the main page clicking on logo.
-
 **TESTING THE FEATURES**
 
+Webpage and its responsiveness was tested for Desktop, iPod and Mobile through 320 (and smaller) to large desktop sizes.
+No bugs or problems detected.
 
+MENU:<br>
+Main page > Tech > Agile > Contact:<br>
+
+1. On desktop and iPod:
+- Each of these pages leads the recruiter scrolling down through next page to Contact page and the footer at the bottom with also posibility of contact. In some places the recruiter may wanto to be back to another page and he can easily do it clicking on one of the sub-page name on the manu. 
+- Clicking on TECH will lead him back to the TECH sub-page. 
+- Clicking on Agile sub-page will lead him back to the Agile.
+- Clicking on Contact sub-page will lead him back to the Contact. 
+- Clicking on logo >Anna Janiak< in menu will lead him back to the main page.
+
+2. On mobile devices:
+- The path happens as follows but the menu collapses into a burger. Once cklicking on the burger it will lead the recruiter to the items of the menu and the order happens as the steps above. There is one more menu sub-page to be back to the main page on mobile devices: *Home* re-directing you to the main page. You can still be back to the main page clicking on logo.
+
+Footer:
+
+1. On desktop and iPod:
+- The footer is always at the bottom of the scrollspy webpage and consist of three social media icons and underneath a copyright.
+
+2. On mobile devices
+- The footer is reduced to social media only.
+
+Typewrter effect:
+
+1. On desktop and iPod:
+- The typewriter animation is showing (large and extralarge sizes od viewing window so 992px width and up)
+
+2. On mobile and smaller iPod:
+- The typewriter is hidden on all viewing windows smaller than 991px width viewing window. The static job title is showed instead.
 
 
 ### Deployment
