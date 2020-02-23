@@ -5,16 +5,17 @@
 
 [Anna Janiak](https://annaweronica.github.io/AJ-resume-webpage/)
 
-Aim of the **resume webpage** is to represent skills and competences which will lead me to get a programming job within IT. 
+Aim of the **resume webpage** is to represent skills and competences which will lead Anna to get a programming job within IT. 
 
 
 ## UX
 
-Target audience for the **resume webpage** is a recruiter and/or potential employer looking for a full stack developer.
+Target audience of the **resume webpage** is a recruiter and/or potential employer looking for a full stack developer.
 
 **Layout:**
 
-Minimalistic, simple design in  white and black style including images. The only exception is for google map in Contact sub-page.
+Minimalistic, simple design in  white and black style including images. 
+>The only exception is for google map in Contact sub-page.
 
 - [Desktop view](/wireframes/Desktop-view.png)
 - [iPod view](/wireframes/iPod-view.png)
@@ -72,7 +73,7 @@ Header
 -
 -
 
-USER STORIES
+***USER STORIES***
 
 - As a recruiter or potential employer, I want to learn what professional previous background Anna has.
 - As a recruiter or potential employer, I want to learn who is Anna and what skills and competences she has for programming role.
@@ -88,7 +89,7 @@ USER STORIES
 - JS ( a few simple functions)
 
 Frameworks:
-- Bootstrap
+- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
 
 External sources imported to the project:
 - [BootstrapCDN](https://www.bootstrapcdn.com/)
@@ -97,7 +98,13 @@ External sources imported to the project:
 - [Google fonts](https://fonts.google.com/)
 - [Font awesome](https://fontawesome.com/)
 
-Knowledgeable resources which supported me during my work:
+Online IDE:
+- [GitPod](https://gitpod.io/workspaces/)
+
+Hosting service:
+- [GitHub](https://github.com/)
+
+Knowledgeable resources which supported Anna during her work:
 
 - [www3school](https://www.w3schools.com/default.asp)
 - [stackoverflow](https://stackoverflow.com/)
@@ -139,19 +146,38 @@ Webpage and its responsiveness was tested on follwoing browsers:
 - Chrom
 - FireFox
 - Edge
-- Internet Explorer !please note: not supported -> image
-  (test failed on sub pages: TECH, Agile)
+> Internet Explorer
+> [exception: the webpage is not supported on Internet Exlprer](/wireframes/Internet-explorer-error.png)
 
+Random user cases:
+-
 
 ### Deployment
 
 ---
 
-The webpage is hosted on github with one master branch:<br>
-[github.com/annaweronica/AJ-resume-webpage](https://github.com/annaweronica/AJ-resume-webpage)<br> 
+The webpage is hosted on github with one master branch:
+[github.com/annaweronica/AJ-resume-webpage](https://github.com/annaweronica/AJ-resume-webpage)
 
-All git commit and git push commends were made accordingly to work incremenation which saved my work in particullary one time when happened this:<br>
-[unexpected gitpod error](/wireframes/gitpod-error.png)
+***GitHub Pages***
+
+To deploy a website on GitHub Pages, follow these steps:
+
+- [Go to](https://github.com/annaweronica/AJ-resume-webpage)
+- Click on *Settings*
+- Scrolling down you will find *GitHub Pages* 
+- Click on the *Source* dropdown menu
+- Select *master branch*
+- Should appear a green message saying [Your site is published at](https://annaweronica.github.io/AJ-resume-webpage/) ready to be live
+
+To create a local development repository, follow these steps:
+
+- [Go to](https://github.com/annaweronica/AJ-resume-webpage)
+- Click on the *Clone or download*
+- Click the check list icon on the right of the newly opened window to clone the repository using HTTPS
+- Open Terminal
+- Change the current working directory to the location where you want the cloned directory to be made
+- Type *git clone* and paste the URL you copied in step 3 and run the command
 
 
 ### Credits
@@ -161,15 +187,16 @@ All git commit and git push commends were made accordingly to work incremenation
 ***Content***
 
 Created by Anna Janiak<br>
-Copy right @ Anna Janiak
+Copy right @Anna Janiak
 
 Exceptions:
->- The text in SCRUM & KANBAN was copied from official SCRUM website [scrum.org](https://www.scrum.org/resources/what-is-a-scrum-master) 
->- The text in SAFe was copied from official SAFe website [scaledagileframework.com](https://www.scaledagileframework.com/product-owner/)
+>- The text in SCRUM & KANBAN in section was copied from official SCRUM website [scrum.org](https://www.scrum.org/resources/what-is-a-scrum-master) 
+>- The text in SAFe section was copied from official SAFe website [scaledagileframework.com](https://www.scaledagileframework.com/product-owner/)
 
 ***Media***
 
 The source of all legally licensed images come from [Adobe Stock](https://stock.adobe.com/ie/)
+Ale the wireframes were made by Anna on [balsamiq cloud](https://balsamiq.cloud/sxgoi9m/projects)
 
 --------
 
