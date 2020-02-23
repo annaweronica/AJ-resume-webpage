@@ -17,10 +17,7 @@ Target audience of the **resume webpage** is a recruiter and/or potential employ
 Minimalistic, simple design in  white and black style including images. 
 >The only exception is for google map in Contact sub-page.
 
-- [Desktop view](/wireframes/Desktop-view.png)
-- [iPod view](/wireframes/iPod-view.png)
-- [Mobile view](/wireframes/Mobile-view.png)
-
+- [Desktop, iPod and mobile wireframes overview](/wireframes/all-Desktop-iPad-mobile-view.png)
 
 ***Main page:***
 
@@ -29,28 +26,16 @@ Under the menu the user can see main image with female touch. Following undernea
 
 > Please note: main page and landing page refers to home page. The names may be used interchangeably.
 
-- [Desktop main page view](/wireframes/Desktop-Landing-view.png)
-- [iPod main page view](/wireframes/iPod-Landing-view.png)
-- [Mobile main page view](/wireframes/Mobile-Landing-view.png)
-
 ***TECH sub-page:***
 
 In this section the user can get fammilar with programming skills and certifications relating to previous IT experience.
 There are two columns with description of a Front End and Back End coding experience. By each column of the text there is the image.
 At the bottom of the section there is a progress skill bar. The procentage referts to overall confidance in certain coding language.
 
-- [Desktop TECH sub-page view](/wireframes/Desktop-TECH-view.png)
-- [iPod TECH sub-page view](/wireframes/iPod-TECH-view.png)
-- [Mobile TECH sub-page view](/wireframes/Mobile-TECH-view.png)
-
 ***Agile sub-page:***
 
 In this section the user can recognize that I have already short experience within IT as Scrum Master and proxy Product Owner in Agile Frameworks.
 There are two columns white and black style including images. The only exception is for google map in Contact sub-page.
-
-- [Desktop Agile sub-page view](/wireframes/Desktop-Agile-view.png)
-- [iPod Agile sub-page view](/wireframes/iPod-Agile-view.png)
-- [Mobile Agile sub-page view](/wireframes/Mobile-Agile-view.png)
 
 ***Contact sub-page:***
 
@@ -62,9 +47,10 @@ The user has few posibilities to reach out to Anna:<br>
 Next to the button "Contact me!" there is a button "CV.pdf" from where the user can open and potentially download Anna CV in pdf form. 
 There is also a google map with location of Anna's address.
 
-- [Desktop Contact sub-page view](/wireframes/Desktop-Contact-view.png)
-- [iPod Contact sub-page view](/wireframes/iPod-Contact-view.png)
-- [Mobile Contact sub-page view](/wireframes/Mobile-Contact-view.png)
+**Wireframes:**
+- [Desktop overview](/wireframes/all-desktop.png)
+- [iPod overview](/wireframes/all-iPod.png)
+- [Mobile overview](/wireframes/all-mobile.png)
 
 
 ## Featuers 
