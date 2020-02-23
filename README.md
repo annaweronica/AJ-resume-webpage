@@ -49,7 +49,7 @@ There is also a google map with location of Anna's address.
 
 **Wireframes:**
 - [Desktop overview](/wireframes/all-desktop.png)
-- [iPod overview](/wireframes/all-iPod.png)
+- [iPod overview](/wireframes/all-iPad.png)
 - [Mobile overview](/wireframes/all-mobile.png)
 
 
