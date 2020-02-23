@@ -223,6 +223,8 @@ Typewrter effect:
 2. On mobile and smaller iPod:
 - The typewriter is hidden on all viewing windows smaller than 991px width viewing window. The static job title is showed instead.
 
+**All other featuers remain the same and are fully responsive**
+
 
 ### Deployment
 
@@ -231,7 +233,7 @@ Typewrter effect:
 The webpage is hosted on github with one master branch:
 [github.com/annaweronica/AJ-resume-webpage](https://github.com/annaweronica/AJ-resume-webpage)
 
-> *I worked before on big project within IT working on many branches however being misled that I am working by my self on my own project I have been working on one master branch following*
+> *Anna worked before on big, crossed-functional project within IT on many branches however being misled that I am working by myself on my own project I have been working on one master branch following*
 > - git add .
 > - git commit -m "name"
 > - git push<br>
@@ -261,9 +263,9 @@ To create a local development repository, follow these steps:
 
 ### Credits
 
-I have joined Code Institue to leran as much as I can from I believe best teachers, tutors and mentors and join IT work environment after the graduation of CI programme. 
-
 ---
+
+Anna have joined Code Institue to leran as much as I can from I believe best teachers, tutors and mentors and that will give Anna the opportuinity to join IT work environment after the graduation of CI programme. 
 
 ***Content***
 
@@ -279,6 +281,6 @@ Exceptions:
 The source of all legally licensed images come from [Adobe Stock](https://stock.adobe.com/ie/)<br>
 Ale the wireframes were made by Anna using [balsamiq cloud](https://balsamiq.cloud/sxgoi9m/projects)
 
---------
+---
 
 Enjoy!
