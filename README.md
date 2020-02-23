@@ -67,11 +67,24 @@ There is also a google map with location of Anna's address.
 
 ## Featuers 
 
-Header
+This is one page website with three sub-pages once the user [scroll down](https://getbootstrap.com/docs/4.3/components/scrollspy/) he will go throught all the sub-pages without need clicking on items in menu.
+
+**Main page**
+
+1. MENU<br>
+At the top of the main page there is a logo in the left-top side.<br>
+In the right-top side there are menu sub-pages TECH > Agile > Contact.<br>
+All menu items are clickable >*including logo*< and redirectes you one of the above section.<br>
+The menu always stays at the top of the windowd browser no metter on which page the user is right now.
+
+2. Content buttons<br>
+On the main page there are three tetx columns referring to Anna's previous professional experience. Under each ot the colum the user can click on the button which will open in a seperate window browser a previous empolyer's webpage.
+
+**TECH sub-page**
+
+1. 
 
 
--
--
 
 ***USER STORIES***
 
@@ -84,9 +97,8 @@ Header
 
 ## Technologies
 
-- HTML5
+- HTML/HTML5
 - CSS/CSS3
-- JS ( a few simple functions)
 
 Frameworks:
 - [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/)
@@ -102,7 +114,7 @@ Online IDE:
 - [GitPod](https://gitpod.io/workspaces/)
 
 Hosting service:
-- [GitHub](https://github.com/)
+- [GitHub](https://github.com/annaweronica/AJ-resume-webpage)
 
 Knowledgeable resources which supported Anna during her work:
 
@@ -123,7 +135,7 @@ External code sources implemented and modified:
 External code sources which helped to solve issues:
 
 - Issue: still palying the youtube video in the background when the model was closed [stackoverflow.com](https://stackoverflow.com/questions/13598423/stop-all-playing-iframe-videos-on-click-a-link-javascript)
-- Issue: [stackoverflow.com](https://stackoverflow.com/questions/9288482/how-do-i-set-the-offset-for-scrollspy-in-bootstrap/12606867#12606867)
+- Issue: Bootstrap uses offset to resolve spying only, not scrolling. [stackoverflow.com](https://stackoverflow.com/questions/9288482/how-do-i-set-the-offset-for-scrollspy-in-bootstrap/12606867#12606867)
 
 
 ### Testing
@@ -132,13 +144,13 @@ External code sources which helped to solve issues:
 
 **HTML Validator**
 
-- [validator.w3.org](/wireframes/index.html.png)
-- [No errors or warnings to show.](/wireframes/HTML-validated.png)
+- [validator.w3.org](https://validator.w3.org/#validate_by_input)<br>
+  [No errors or warnings to show.](/wireframes/HTML-validated.png)
 
 **CSS Validator**
 
-- [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/)
-- [No Error Found.](/wireframesCSS-validated.png)
+- [jigsaw.w3.org/css-validator](https://jigsaw.w3.org/css-validator/)<br>
+  [No Error Found.](/wireframes/CSS-validated.png)
 
 **Manual Testing**
 
@@ -146,14 +158,12 @@ Webpage and its responsiveness was tested on follwoing browsers:
 - Chrom
 - FireFox
 - Edge
-> Internet Explorer
-> [exception: the webpage is not supported on Internet Explorer](/wireframes/Internet-explorer-error.png)
+- Internet Explorer<br>
+[Exception: the webpage is not supported on Internet Explorer](/wireframes/Internet-explorer-error.png)
 
-***Recruiter stories testing:***
+Most common path through the website:
 
-*Most common path through the website:
-
-- On desktop and iPod:
+1. On desktop and iPod:
 
 Main page > Tech > Agile > > Contact
 Each of these pages leads the recruiter scrolling down through next page to Contact page and the footer at the bottom with also posibility of contact. In some places the recruiter may wanto to be back to another page and he can easily do it clicking on one of the sub-page name on the manu. 
@@ -162,7 +172,9 @@ Clicking on Agile sub-page will lead him back to the Agile.
 Clicking on Contact sub-page will lead him back to the Contact. 
 Clicking on logo >Anna Janiak< in menu will lead him back to the main page.
 
-- On mobile devices the path happens as follows but the menu collapses into a burger. Once cklicking on the burger it will lead the recruiter to the items of the menu and the order happens as the steps above. There is one more menu sub-page to be back to the main page on mobile devices: *Home* re-directing you to the main page. You can still be back to the main page clicking on logo.
+2. On mobile devices the path happens as follows but the menu collapses into a burger. Once cklicking on the burger it will lead the recruiter to the items of the menu and the order happens as the steps above. There is one more menu sub-page to be back to the main page on mobile devices: *Home* re-directing you to the main page. You can still be back to the main page clicking on logo.
+
+**TESTING THE FEATURES**
 
 
 
