@@ -53,8 +53,8 @@ There are two columns white and black style including images. The only exception
 ***Contact sub-page:***
 
 The user has few posibilities to reach out to me:<br>
-  1. via phone numer and/or e-mail adress which activets when pressing a button "Contact me!"<br>
-  2. via conatct form which is available on the webpage under a heading "Drop me a message". The inputs of name and email are mandatory to fill.<br>
+  1. via phone numer and/or e-mail adress which activets a model when pressing a button "Contact me!"<br>
+  2. via Conatct Form which is available on the page under a heading "Drop me a message". The inputs of name and email are mandatory to fill up otherwise the toolip will pop up requires the recruiter to do so.<br>
   3. via links to social media which are in footer section. When the user click the social media icon the social media webpage opens in next tab window.<br>
 
 Next to the button "Contact me!" there is a button "CV.pdf" from where the user can open and potentially download Anna CV in pdf form. 
@@ -147,10 +147,25 @@ Webpage and its responsiveness was tested on follwoing browsers:
 - FireFox
 - Edge
 > Internet Explorer
-> [exception: the webpage is not supported on Internet Exlprer](/wireframes/Internet-explorer-error.png)
+> [exception: the webpage is not supported on Internet Explorer](/wireframes/Internet-explorer-error.png)
 
-Random user cases:
--
+***Recruiter stories testing:***
+
+*Most common path through the website:
+
+- On desktop and iPod:
+
+Main page > Tech > Agile > > Contact
+Each of these pages leads the recruiter scrolling down through next page to Contact page and the footer at the bottom with also posibility of contact. In some places the recruiter may wanto to be back to another page and he can easily do it clicking on one of the sub-page name on the manu. 
+Clicking on TECH will lead him back to the TECH sub-page. 
+Clicking on Agile sub-page will lead him back to the Agile.
+Clicking on Contact sub-page will lead him back to the Contact. 
+Clicking on logo >Anna Janiak< in menu will lead him back to the main page.
+
+- On mobile devices the path happens as follows but the menu collapses into a burger. Once cklicking on the burger it will lead the recruiter to the items of the menu and the order happens as the steps above. There is one more menu sub-page to be back to the main page on mobile devices: *Home* re-directing you to the main page. You can still be back to the main page clicking on logo.
+
+
+
 
 ### Deployment
 
@@ -159,11 +174,18 @@ Random user cases:
 The webpage is hosted on github with one master branch:
 [github.com/annaweronica/AJ-resume-webpage](https://github.com/annaweronica/AJ-resume-webpage)
 
+> *I worked before on big project within IT working on many branches however being misled that I am working by my self on my own project I have been working on one master branch following*
+> - git add .
+> - git commit -m "name"
+> - git push<br>
+
+**All commends were made as the work incrementation was made progressively and prevented from any code incrementation loss.** 
+
 ***GitHub Pages***
 
 To deploy a website on GitHub Pages, follow these steps:
 
-- [Go to](https://github.com/annaweronica/AJ-resume-webpage)
+- [Go to Anna's repository](https://github.com/annaweronica/AJ-resume-webpage)
 - Click on *Settings*
 - Scrolling down you will find *GitHub Pages* 
 - Click on the *Source* dropdown menu
@@ -172,7 +194,7 @@ To deploy a website on GitHub Pages, follow these steps:
 
 To create a local development repository, follow these steps:
 
-- [Go to](https://github.com/annaweronica/AJ-resume-webpage)
+- [Go to Anna's repository](https://github.com/annaweronica/AJ-resume-webpage)
 - Click on the *Clone or download*
 - Click the check list icon on the right of the newly opened window to clone the repository using HTTPS
 - Open Terminal
@@ -181,6 +203,8 @@ To create a local development repository, follow these steps:
 
 
 ### Credits
+
+I have joined Code Institue to leran as much as from I believe best teachers, tutors and mentors and join IT work environment after the CI programme as well. 
 
 ---
 
@@ -195,8 +219,8 @@ Exceptions:
 
 ***Media***
 
-The source of all legally licensed images come from [Adobe Stock](https://stock.adobe.com/ie/)
-Ale the wireframes were made by Anna on [balsamiq cloud](https://balsamiq.cloud/sxgoi9m/projects)
+The source of all legally licensed images come from [Adobe Stock](https://stock.adobe.com/ie/)<br>
+Ale the wireframes were made by Anna using [balsamiq cloud](https://balsamiq.cloud/sxgoi9m/projects)
 
 --------
 
