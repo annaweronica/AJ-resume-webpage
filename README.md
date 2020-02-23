@@ -251,7 +251,7 @@ To create a local development repository, follow these steps:
 
 ---
 
-Anna have joined Code Institue to leran as much as I can from I believe best teachers, tutors and mentors and that will give Anna the opportuinity to join IT work environment after the graduation of CI programme. 
+Anna have joined Code Institue to leran as much as she can from she believes best teachers, tutors and mentors and that will give Anna the opportuinity to join IT work environment after the graduation of CI programme. 
 
 ***Content***
 
