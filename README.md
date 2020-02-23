@@ -77,12 +77,18 @@ In the right-top side there are menu sub-pages TECH > Agile > Contact.<br>
 All menu items are clickable >*including logo*< and redirectes you one of the above section.<br>
 The menu always stays at the top of the windowd browser no metter on which page the user is right now.
 
-2. Content buttons<br>
+2. Typewriting effect<br>
+On desktop and iPod the feature's role is to drag more attention to the job title.<br>
+On mobile the job title stays in the same style however static.
+
+3. Content buttons<br>
 On the main page there are three tetx columns referring to Anna's previous professional experience. Under each ot the colum the user can click on the button which will open in a seperate window browser a previous empolyer's webpage.
 
 **TECH sub-page**
 
-1. 
+1. Under each of the text colum there are two buttons.<br>
+Clicking on *Portfolio* button the future *to be* website will open in the new browser window .<br>
+Clicking on *ISTQB* or *IREB* button the website with the officail web page will open in the new browser window. 
 
 
 
