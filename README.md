@@ -86,11 +86,30 @@ On the main page there are three tetx columns referring to Anna's previous profe
 
 **TECH sub-page**
 
-1. Under each of the text colum there are two buttons.<br>
+1. Portfolio and certification buttons<br>
+Under each of the text colum there are two buttons.<br>
 Clicking on *Portfolio* button the future *to be* website will open in the new browser window .<br>
 Clicking on *ISTQB* or *IREB* button the website with the officail web page will open in the new browser window. 
 
+**Agile**
 
+1. Frameworks and video buttons<br>
+Under each of the text colum there are two buttons.<br>
+Clicking on *Official website* button the officail website of the Scrum organization will open in the new browser window .<br>
+Clicking on *Video Hint* button the youtube video will pop up in the model. The video stops playing once the model is closed.
+
+**Contact**
+1. Contact button<br>
+The recruiter has the posibility to click on the *Contact me!* button and the model with contact details will pop up
+
+2. CV button<br>
+The recruiter ha sthe posibility to click on the *CV.pdf* putton and the CV in the pdf form will open in the new browser window.
+
+3. Google map<br>
+The recruiter can easily find up where Anna is located and what area of the city she lives in. The map has an option of larger view. Then the map open in google maps in the new browser window.
+
+4. Contact form<br>
+The recruiter can contact Anna via Contact Form. The Contact Form has three inputs: Name, Email and Message. The first two are required. If there are not filled out the tooltip it will pop up with the message *Please fill out this filed*. Athe the button of the Contact Form there is a *Submit* button.
 
 ***USER STORIES***
 
@@ -197,7 +216,7 @@ The webpage is hosted on github with one master branch:
 > - git commit -m "name"
 > - git push<br>
 
-**All commends were made as the work incrementation was made progressively and prevented from any code incrementation loss.** 
+> **All commends were made as the work incrementation was made progressively and prevented from any code incrementation loss.** 
 
 ***GitHub Pages***
 
@@ -208,7 +227,7 @@ To deploy a website on GitHub Pages, follow these steps:
 - Scrolling down you will find *GitHub Pages* 
 - Click on the *Source* dropdown menu
 - Select *master branch*
-- Should appear a green message saying [Your site is published at](https://annaweronica.github.io/AJ-resume-webpage/) ready to be live
+- Should appear a green message saying [Your site is published at](https://annaweronica.github.io/AJ-resume-webpage/)
 
 To create a local development repository, follow these steps:
 
@@ -222,7 +241,7 @@ To create a local development repository, follow these steps:
 
 ### Credits
 
-I have joined Code Institue to leran as much as from I believe best teachers, tutors and mentors and join IT work environment after the CI programme as well. 
+I have joined Code Institue to leran as much as I can from I believe best teachers, tutors and mentors and join IT work environment after the graduation of CI programme. 
 
 ---
 
